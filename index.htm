@@ -8,7 +8,8 @@
 <meta name="keywords" content=", , Holy Bible, Scripture, Bible, Scriptures, New Testament, Old Testament, Gospel">
 <meta http-equiv="Content-Script-Type" content="text/javascript"> 
     	<meta http-equiv="Content-Script-Type" content="text/javascript"> 				 
-    	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script> 
+    	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cookie.js"></script>  
 		<script type="text/javascript" src="js/jquery-ui-1.8.1.custom.min.js"></script> 
     	<script type="text/javascript" src="js/drumsets.js"></script>
 		<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script> 
@@ -35,8 +36,6 @@
 	});
 	
 	$(document).ready(function(){
-	$(function () {
-		loadPlannedPages(1);
 		$('.accordion table').width('100%');
 		$.localScroll();	
 		//loadGenrePage("#content_DtHistory", "GEN01.htm");
@@ -44,7 +43,6 @@
 		//loadGenrePage("#content_Prophets", "ISA01.htm");
 		//loadGenrePage("#content_Gospels", "MAT01.htm");
 		//loadGenrePage("#content_ChurchHistory", "ACT01.htm");
-	    });
 	});
 </script>
 </head>

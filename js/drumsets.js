@@ -51,7 +51,8 @@ var timeEstimates = new Array(5);
 				};
 				
 				function loadPlannedPages(day, genreToActivate)
-				{
+ 				{
+				    $.cookie('arl-bookmark', day, { expires: 999 });
 					loadBCHeadingLink(day, mapDtHistoryToBC, 	"DtHistory");
 					loadBCHeadingLink(day, mapWisdomToBC, 		"Wisdom");
 					loadBCHeadingLink(day, mapProphetsToBC, 	"Prophets");
@@ -246,6 +247,11 @@ $("body").append('See? It works.');
 					displayAllBCHeading();
 				});
 			  
+			  	var arlBookmarkDay = $.cookie('arl-bookmark');
+			  	if (arlBookmarkDay == undefined) {
+			  	    arlBookmarkDay = "1";
+			  	}
+				$('#tbDay').val(arlBookmarkDay);
 			  	displayAllBCHeading();
 			});
 			
