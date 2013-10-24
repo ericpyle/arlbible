@@ -239,7 +239,7 @@ $("body").append('See? It works.');
   					prevDay();
 				});
 				
-				$("#btnNextDay").click(function() {
+				$(".btnNextDay").click(function() {
   					nextDay();
 				});
 			  
