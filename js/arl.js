@@ -99,6 +99,7 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 	var api = {};
 	api.initialize = initialize;
 	api.loadPlannedPages = loadPlannedPages;
+	api.loadGenrePage = loadGenrePage;
 
 	var oconfiguration = { chapterPath : "kjv"};
 
@@ -240,7 +241,7 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 	function importLink(idGenreDiv, anchorElement) {
 		var bchtm = anchorElement.attr("href");
 		anchorElement.attr("href",
-			"javascript:loadGenrePage('" + idGenreDiv + "', '" + bchtm + "');");
+			"javascript:ARL.loadGenrePage('" + idGenreDiv + "', '" + bchtm + "');");
 		return anchorElement;
 	}
 
