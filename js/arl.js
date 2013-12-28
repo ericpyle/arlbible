@@ -90,15 +90,23 @@ function displayAllBCHeading() {
 	var day = $('#tbDay').val();
 	$('.drumDayNumber').text(day);
 	$('#accordion1').accordion("activate", false);
+	ARL.initialize("kjv");
 	ARL.loadPlannedPages(day);
 };
 
 var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 
 	var api = {};
+	api.initialize = initialize;
 	api.loadPlannedPages = loadPlannedPages;
 
+	var oconfiguration = { chapterPath : "kjv"};
+
 	var timeEstimates = new Array(5);
+
+	function initialize(chapterPath) {
+		oconfiguration.chapterPath = chapterPath;
+	}
 
 	function displayBCHeadingLink(day, mapArray, genre) {
 		var bm = (day - 1) % mapArray.length;
@@ -142,7 +150,6 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 		$("#totalTimeEstimation").text(totalTime.toFixed(2));
 	}
 	function loadGenrePage(idGenreDiv, bcPage, fLoadOnly) {
-		var version = "kjv";
 		var bookCode = bcPage.substring(0, 3);
 		var verses = BookStats[bookCode].verses;
 		var words = BookStats[bookCode].words;
@@ -158,7 +165,7 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 		var ch = parseInt(bcAbbr.substring(3), 10);
 		$("#HeadingBCRef_" + genre).text(heading + " " + ch);
 		//document.location.href="#mainDocTop";
-		$(idGenreDiv).load(version + "/" + bcPage, function () {
+		$(idGenreDiv).load(oconfiguration.chapterPath + "/" + bcPage, function () {
 
 			// disassemble the page into book
 			//var bcAbbr = bcPage.split('.')[0];
