@@ -22,11 +22,24 @@ $(document).ready(function () {
 		displayAllBCHeading();
 	});
 
-	var arlBookmarkDay = $.cookie('arl-bookmark');
+	$.cookie.json = true;
+	var arlCookie = $.cookie('arl-bookmark');
+	if (arlCookie == undefined)
+		arlCookie = { "day": 1, versionChapterPath: $("#versionChapterPath").val(), language: "eng" };
+	var arlBookmarkDay = arlCookie.day;
 	if (arlBookmarkDay == undefined) {
-		arlBookmarkDay = "1";
+		if (arlCookie > 0)
+			arlBookmarkDay = arlCookie;
+		else
+			arlBookmarkDay = "1";
 	}
+	if (arlCookie.versionChapterPath == undefined)
+		arlCookie.versionChapterPath = "kjv";
+	$("#versionChapterPath").val(arlCookie.versionChapterPath);
 	$('#tbDay').val(arlBookmarkDay);
+	$("#versionChapterPath").change(function () {
+		displayAllBCHeading();
+	});
 	displayAllBCHeading();
 });
 
@@ -90,7 +103,8 @@ function displayAllBCHeading() {
 	var day = $('#tbDay').val();
 	$('.drumDayNumber').text(day);
 	$('#accordion1').accordion("activate", false);
-	ARL.initialize("kjv");
+	var chapterPath = $('#versionChapterPath').val();
+	ARL.initialize(chapterPath);
 	ARL.loadPlannedPages(day);
 };
 
@@ -121,7 +135,7 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 	};
 
 	function loadPlannedPages(day, genreToActivate) {
-		$.cookie('arl-bookmark', day, { expires: 999 });
+		$.cookie('arl-bookmark', { "day": day, versionChapterPath: oconfiguration.chapterPath }, { expires: 999 });
 		loadBCHeadingLink(day, mapDtHistoryToBC, "DtHistory");
 		loadBCHeadingLink(day, mapWisdomToBC, "Wisdom");
 		loadBCHeadingLink(day, mapProphetsToBC, "Prophets");

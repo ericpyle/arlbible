@@ -51,11 +51,13 @@
 <a id="mainDocTop" name="mainDocTop"></a>
 <div id="tabs"> 
 			<ul> 
-				<li><a href="#tabs-1">KJV</a></li>
-				<li><a href="#tabs-2">Browse by Book</a></li>				
+				<li><a href="#tabs-1"><b>ARL</b></a></li>
+				<li><a href="#tabs-2">Choose Book</a></li>
+				<li><a href="#tabs-3">Languages</a></li>
 			</ul>
 			<div id="tabs-1">
-				<div>Reading Plan &copy; 2010 Ben Drum</div>
+				<div style="font-size:smaller;">Advanced Reading Loop (ARL) &copy; 2010 Ben Drum</div>
+				<p></p>
 				<div style="text-align:center;">			
 					<a href="javascript:prevDay();" style="text-decoration: none;">&lt;&lt;</a> &nbsp;&nbsp;
 					Day <input id="tbDay" type="text" value="1" onkeypress="SetDay(event);" style="width: 156px; border-style:hidden; background-color:#F1F3F8;"/>
@@ -70,45 +72,61 @@ Skip to Day<br />
 <div class="bookLine"><a id="BCHeading_Prophets" href="javascript:void(0);">{Isaiah 1}</a></div>
 <div class="bookLine"><a id="BCHeading_Gospels" href="javascript:void(0);">{Matthew 1}</a></div>
 <div class="bookLine"><a id="BCHeading_ChurchHistory" href="javascript:void(0);">{Acts 1}</a></div>-->
+<div style="font-size:smaller;">
+	<select id="versionChapterPath">
+		<option value="kjv">KJV - King James Version</option>
+		<option value="web">WEB - World English Bible</option>
+	</select>
+</div>
 <div style="text-align:center;">
 <input class="btnNextDay" type="button" value="Done" />
-</div>		
-<div>				Total Estimated Reading Time: <span id="totalTimeEstimation">0</span> minutes</div>
+</div>
+<div style="font-size:smaller;">				Total Estimated Reading Time: <span id="totalTimeEstimation">0</span> minutes</div>
 				<div>
 				<div id="accordion1" class="accordion">					
 						<table>
-							<tr><td width="30px;"><a href="#"></a></td>
-							<td width="370px;"><b>History of Israel</b> ( Genesis...Esther )</td>
-							<td>~<span id="timeEstimation_DtHistory">0</span> min</td>
-							<td align="right"><span id="HeadingBCRef_DtHistory" class="HeadingBCRef">Genesis 1</span></td></tr>
+							<tr><td width="1px;"><a href="#"></a></td>
+							<td width="150px;" align="right"><span id="HeadingBCRef_DtHistory" class="HeadingBCRef">Genesis 1</span></td>
+							<td width="30px;"></td>
+							<td width="150px;">~<span id="timeEstimation_DtHistory">0</span> min</td>
+							<td><b>History of Israel</b> ( Genesis...Esther )</td>
+							</tr>
 						</table>							
 						<div id="content_DtHistory" ></div> 										
 						<table>
-							<tr><td width="30px;"><a href="#"></a></td>
-							<td width="370px;"><b>Wisdom</b> ( Job...Song of Solomon )</td>
-							<td>~<span id="timeEstimation_Wisdom">0</span> min</td>
-							<td align="right"><span id="HeadingBCRef_Wisdom" class="HeadingBCRef">Job 1</span></td></tr>
+							<tr><td width="1px;"><a href="#"></a></td>
+							<td width="150px;" align="right"><span id="HeadingBCRef_Wisdom" class="HeadingBCRef">Job 1</span></td>
+							<td width="30px;"></td>
+							<td width="150px;">~<span id="timeEstimation_Wisdom">0</span> min</td>
+							<td><b>Wisdom</b> ( Job...Song of Solomon )</td>
+							</tr>
 						</table>
 						<div id="content_Wisdom" ></div> 
 						<table>
-							<tr><td width="30px;"><a href="#"></a></td>
-							<td width="370px;"><b>Prophets</b> ( Isaiah...Malachi )</td>
-							<td>~<span id="timeEstimation_Prophets">0</span> min</td>
-							<td align="right"><span id="HeadingBCRef_Prophets" class="HeadingBCRef">Isaiah 1</span></td></tr>
+							<tr><td width="1px;"><a href="#"></a></td>
+							<td width="150px;" align="right"><span id="HeadingBCRef_Prophets" class="HeadingBCRef">Isaiah 1</span></td>
+							<td width="30px;"></td>
+							<td width="150px;">~<span id="timeEstimation_Prophets">0</span> min</td>
+							<td><b>Prophets</b> ( Isaiah...Malachi )</td>
+							</tr>
 						</table>
 						<div id="content_Prophets" ></div>
 						<table>
-							<tr><td width="30px;"><a href="#"></a></td>
-							<td width="370px;"><b>Gospels</b> ( Matthew...John )</td>
-							<td>~<span id="timeEstimation_Gospels">0</span> min</td>
-							<td align="right"><span id="HeadingBCRef_Gospels" class="HeadingBCRef">Matthew 1</span></td></tr>
+							<tr><td width="1px;"><a href="#"></a></td>
+							<td width="150px;" align="right"><span id="HeadingBCRef_Gospels" class="HeadingBCRef">Matthew 1</span></td>
+							<td width="30px;"></td>
+							<td width="150px;">~<span id="timeEstimation_Gospels">0</span> min</td>
+							<td><b>Gospels</b> ( Matthew...John )</td>
+							</tr>
 						</table>
 						<div id="content_Gospels" ></div>
 						<table>
-							<tr><td width="30px;"><a href="#"></a></td>
-							<td width="370px;"><b>Church History</b> ( Acts...Revelation )</td>
-							<td>~<span id="timeEstimation_ChurchHistory">0</span> min</td>
-							<td align="right"><span id="HeadingBCRef_ChurchHistory" class="HeadingBCRef">Acts 1</span></td></tr>
+							<tr><td width="1px;"><a href="#"></a></td>
+							<td width="150px;" align="right"><span id="HeadingBCRef_ChurchHistory" class="HeadingBCRef">Acts 1</span></td>
+							<td width="30px;"></td>
+							<td width="150px;">~<span id="timeEstimation_ChurchHistory">0</span> min</td>
+							<td><b>Church History</b> ( Acts...Revelation )</td>
+							</tr>
 						</table>
 						<div id="content_ChurchHistory" ></div>
 						<!--
@@ -126,7 +144,6 @@ Skip to Day<br />
 					<input class="btnNextDay" type="button" value="Done" />
 				</div>
 				<a id="jumpToTop" href="#mainDocTop">Top</a>
-
 			</div>
 			
 			<div id="tabs-2">
@@ -220,5 +237,15 @@ Skip to Day<br />
 		</div>
 </div> <!-- accordian -->
 </div>
-				</div> 
+
+</div>
+<div id="tabs-3">
+	<p></p>
+	Choose Language
+	<select>
+		<option value="en">English</option>
+	</select>
+	<p></p>
+</div>
+</div>
 </body></html>
