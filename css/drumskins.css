@@ -3,9 +3,9 @@
 /* Adapted 2009-07-21 for use with Prophero and expanded to include most of the USFM 2.2 style set by Kahunapule */
 
 /* JohnT: global defaults */
-body				{ font-family: "Gentium", "Charis SIL", "Times New Roman", serif; font-size: 12pt; line-height: 1.4em}
+body				{ font-family: "Gentium", "Charis SIL", "Times New Roman", serif; font-size: 12pt; line-height: 1.4em; background-color: #4E2B75; }
 body.mainDoc	{
-	background-color: white;
+	background-color: #4E2B75;
 	}
 /* Styles for USFM elements -- div for paragraph and span for character styles */
 span.add { color: rgb(16,16,16); font-style: italic }
