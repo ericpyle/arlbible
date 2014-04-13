@@ -1,5 +1,6 @@
 /**
  * @author (C) 2010 Eric Pyle
+ * @requires: jquery, BigInteger.min.js
  */
 
 /*
@@ -69,22 +70,18 @@ function accordionOnChange(event, ui) {
 }
 
 function nextDay() {
-	var day = parseInt($("#tbDay").val());
-	if (day == undefined)
-		return;
-	var nextday = day + 1;
-	if (nextday > 0) {
+	var day = bigInt($("#tbDay").val());
+	var nextday = day.next();
+	if (nextday.greater(0)) {
 		$("#tbDay").val(nextday);
 		displayAllBCHeading();
 	}
 }
 
 function prevDay() {
-	var day = parseInt($("#tbDay").val());
-	if (day == undefined)
-		return;
-	var prevday = day - 1;
-	if (prevday > 0) {
+	var day = bigInt($("#tbDay").val());
+	var prevday = day.prev();
+	if (prevday.greater(0)) {
 		$("#tbDay").val(prevday);
 		displayAllBCHeading();
 	}
@@ -124,8 +121,8 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 	}
 
 	function displayBCHeadingLink(day, mapArray, genre) {
-		var bm = (day - 1) % mapArray.length;
-		var bcAbbr = mapArray[bm];
+		var bm = (bigInt(day).prev()).mod(mapArray.length);
+		var bcAbbr = mapArray[bm.valueOf()];
 		var heading = convertBCAbbrToHeading(bcAbbr);
 		var ch = parseInt(bcAbbr.substring(3), 10);
 		$("#BCHeading_" + genre).text(heading + " " + ch);
@@ -149,8 +146,8 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 	}
 
 	function loadBCHeadingLink(day, mapArray, genre) {
-		var bm = (day - 1) % mapArray.length;
-		var bcAbbr = mapArray[bm];
+		var bm = bigInt(day).prev().mod(mapArray.length);
+		var bcAbbr = mapArray[bm.valueOf()];
 		var heading = convertBCAbbrToHeading(bcAbbr);
 		var ch = parseInt(bcAbbr.substring(3), 10);
 
