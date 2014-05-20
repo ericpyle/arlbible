@@ -175,15 +175,15 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 		displayTotalEstimatedReadingTime();
 		var heading = convertBCAbbrToHeading(bcAbbr);
 		var ch = parseInt(bcAbbr.substring(3), 10);
-		$("#HeadingBCRef_" + genre).text(heading + " " + ch);
+		$("#HeadingBCRef_" + genre).text(heading + " " + (ch ? ch : ""));
 		//document.location.href="#mainDocTop";
 		$(idGenreDiv).load(oconfiguration.chapterPath + "/" + bcPage, function () {
 
 			// disassemble the page into book
 			//var bcAbbr = bcPage.split('.')[0];
 			//var bookAbbr = bcAbbr.substring(0, 3);
-			jQuery(this).find("div.navButtons a")
-				.each(function () {
+			jQuery(this).find("ul.tnav li a")
+				.each(function (index) {
 					importLink(idGenreDiv, $(this));
 					//"javascript:loadGenrePage('#content_DtHistory', '" + bookAbbr + pad2(ch) + ".htm');");
 
@@ -250,9 +250,9 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 	}
 
 	function importLink(idGenreDiv, anchorElement) {
-		var bchtm = anchorElement.attr("href");
-		anchorElement.attr("href",
-			"javascript:ARL.loadGenrePage('" + idGenreDiv + "', '" + bchtm + "');");
+	    var bchtm = anchorElement.attr("href");
+	    if (bchtm.indexOf("index") == -1)
+		    anchorElement.attr("href","javascript:ARL.loadGenrePage('" + idGenreDiv + "', '" + bchtm + "');");
 		return anchorElement;
 	}
 
