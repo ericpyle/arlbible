@@ -1,32 +1,21 @@
 *	{margin:0;padding:0}
 html,body	{height:100%;font-size:1.2em;line-height:1.4em;color:black}
-.main	{min-height:100%;margin-bottom:-4em;padding:0.5em}
+/* Note: if the following 2 .woff files are in another location, please edit the two url() specifiers, below. */
+@font-face {
+    font-family: 'gentiumw';
+    src: url('fonts/gentium.eot');
+    src: url('fonts/gentium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gentium.woff') format('woff'),
+         url('fonts/gentium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html,body	{font-family: "Gentium", "Charis SIL", "Times New Roman", serif;}
+h1 { font-weight: normal; }
+.main	{min-height:100%;/*margin-bottom:-4em;*/padding:0.5em}
 .main:after	{content:"";display:block}
+.main {font-family: 'gentiumw','Gentium','Gentium Plus','Gentium Basic','Times','serif';}
 li	{list-style:disc inside}
-ul.cmenu ul{display:none}
-ul.cmenu li:hover>ul{display:block}
-ul.cmenu ul{position: absolute;left:-1px;top:98%}
-ul.cmenu ul ul{position: absolute;left:98%;top:-2px}
-ul.cmenu,ul.cmenu ul {margin:0px;list-style:none;padding:0px 2px 2px 0px;background-color:#000000;border-color:#cccccc #111111 #111111 #cccccc;border-width:1px;border-style:solid}
-ul.cmenu table {border-collapse:collapse}ul.cmenu {display:block;zoom:1;float: left}
-ul.cmenu li{display:block;margin:2px 0px 0px 2px;font-size:0px}
-ul.cmenu a:active, ul.cmenu a:focus {outline-style:none}
-ul.cmenu a, ul.cmenu li.dis a:hover, ul.cmenu li.sep a:hover	{display:block;vertical-align:middle;background-color:#000000;border-width:1px;border-color:#333333;border-style:solid;
- text-align:center;text-decoration:none;padding:2px 5px 2px 10px;_padding-left:0;font-style: normal;font-size: 16pt;color: #eeeeee;text-decoration:none;cursor:default}
-ul.cmenu span{overflow:visible}
-ul.cmenu li {float:left}
-ul.cmenu ul li {float:none}
-ul.cmenu ul a {text-align:center;white-space:nowrap}
-ul.cmenu li.sep{text-align:center;padding:0px;line-height:0;height:100%}
-ul.cmenu li.sep span{float:none;padding-right:0;width:3px;height:100%;	display:inline-block;background-color:#cccccc #111111 #111111 #cccccc;	background-image:none}
-ul.cmenu ul li.sep span{width:100%;height:3px}
-ul.cmenu li:hover{position:relative}
-ul.cmenu li:hover>a{background-color:#377D9F !important;border-color:#377D9F;border-style:solid;font-style: normal;font-size: 16pt;color: #FFFFFF;text-decoration:none}
-ul.cmenu li a:hover{position:relative;background-color:#377D9F;border-color:#377D9F;border-style:solid;font-style: normal;font-size:16pt;color:#FFFFFF;text-decoration:none}
-ul.cmenu li.dis a {color:#666 !important}
-ul.cmenu a:hover ul,ul.cmenu a:hover a:hover ul{display:block}
-ul.cmenu a:hover ul ul{display:none}
-ul.cmenu span{display:block;background-position:right center;background-repeat: no-repeat;padding-right:12px}
 a.xx	{background-color:#333333 !important}
 a.nn	{background-color:#202050 !important}
 a.oo	{background-color:#205030 !important}
@@ -138,10 +127,10 @@ h1,h2,h3,.mt,.mt1,.mte,
 
 ul.tnav	{list-style-type:none;padding:5;margin-left:0;text-align:center}
 .tnav li	{display:inline}
-.tnav a	{display:inline-block;border:1px solid #000;padding:5px;background-color:#4090FF;text-decoration:none;color:#000;border-radius:5px}
+.tnav a	{display:inline-block;border:1px solid #000;padding:5px;background-color:#CCCCEC;text-decoration:none;color:#000;border-radius:5px}
 .tnav a:visited	{color:#404000}
 .tnav a:link	{color:#000040}
-.tnav a:hover	{color:#FFFFFF;background-color:#204880}
+.tnav a:hover	{color:#FFFFFF;background-color:#4E2B75}
 
 ul.vnav	{list-style-type:none;padding:5;margin-left:0;text-align:center;float:left}
 .vnav li	{list-style-type:none}
