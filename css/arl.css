@@ -127,10 +127,10 @@ h1,h2,h3,.mt,.mt1,.mte,
 
 ul.tnav	{list-style-type:none;padding:5;margin-left:0;text-align:center}
 .tnav li	{display:inline}
-.tnav a	{display:inline-block;border:1px solid #000;padding:5px;background-color:#CCCCEC;text-decoration:none;color:#000;border-radius:5px}
+.daynav,.tnav a	{display:inline-block;border:1px solid #000;padding:5px;background-color:#CCCCEC;text-decoration:none;color:#000;border-radius:5px}
 .tnav a:visited	{color:#404000}
-.tnav a:link	{color:#000040}
-.tnav a:hover	{color:#FFFFFF;background-color:#4E2B75}
+.daynav:link,.tnav a:link	{color:#000040}
+.daynav:hover,.tnav a:hover	{color:#FFFFFF;background-color:#4E2B75}
 
 ul.vnav	{list-style-type:none;padding:5;margin-left:0;text-align:left;float:left}
 .vnav li	{list-style-type:none}
@@ -140,3 +140,6 @@ ul.vnav	{list-style-type:none;padding:5;margin-left:0;text-align:left;float:left
 .vnav a:hover	{background-color:#4E2B75 !important;color:#ffffff}
 
 div.bookList	{float:left;margin:0px;padding:3px;width:13em;background:rgb(223,255,255)}
+
+button.btnNextDay {margin-top:10px;font-size:smaller; border:1px solid #000;padding:5px;background-color:#8E90D6;text-decoration:none;color:#000;border-radius:5px;}
+button.btnNextDay:hover {color:#FFFFFF;background-color:#4E2B75}

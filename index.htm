@@ -57,12 +57,12 @@
 				<li><a href="#tabs-3">Languages</a></li>
 			</ul>
 			<div id="tabs-1">
-				<div style="font-size:smaller;">Accelerated Reading Loop &copy; 2010 Ben Drum</div>
+				<div style="font-size:small;margin-bottom:10px;color:gray;">Accelerated Reading Loop &copy; 2010 Ben Drum</div>
 				<p></p>
 				<div style="text-align:center;">			
-					<a href="javascript:prevDay();" style="text-decoration: none;">&lt;&lt;</a> &nbsp;&nbsp;
+					<a class="daynav" href="javascript:prevDay();">&lt;</a> &nbsp;&nbsp;
 					Day <input id="tbDay" type="text" value="1" onkeypress="SetDay(event);" style="width: 156px; border-style:hidden; background-color:#F1F3F8;"/>
-	 				<a href="javascript:nextDay();" style="text-decoration: none;">&gt;&gt;</a>
+	 				<a class="daynav" href="javascript:nextDay();">&gt;</a>
  				</div>
 <!--
 Skip to Day<br /> 
@@ -73,16 +73,16 @@ Skip to Day<br />
 <div class="bookLine"><a id="BCHeading_Prophets" href="javascript:void(0);">{Isaiah 1}</a></div>
 <div class="bookLine"><a id="BCHeading_Gospels" href="javascript:void(0);">{Matthew 1}</a></div>
 <div class="bookLine"><a id="BCHeading_ChurchHistory" href="javascript:void(0);">{Acts 1}</a></div>-->
-<div style="font-size:smaller;">
+<div style="font-size:smaller;margin-top:10px;">
 	<select id="versionChapterPath">
 		<option value="kjv">KJV - King James Version</option>
 		<option value="web">WEB - World English Bible</option>
 	</select>
 </div>
 <div style="text-align:center;">
-<input class="btnNextDay" type="button" value="Done" />
+<button class="btnNextDay">DONE</button>
 </div>
-<div style="font-size:smaller;">				Total Estimated Reading Time: <span id="totalTimeEstimation">0</span> minutes</div>
+<div style="font-size:smaller;color:darkslategray;">				Total Estimated Reading Time: <span id="totalTimeEstimation">0</span> minutes</div>
 				<div>
 				<div id="accordion1" class="accordion">					
 						<table>
@@ -142,7 +142,7 @@ Skip to Day<br />
 				</div>
 				</div>
 				<div style="text-align:center;">
-					<input class="btnNextDay" type="button" value="Done" />
+					<button class="btnNextDay">DONE</button>
 				</div>
 				<a id="jumpToTop" href="#mainDocTop">Top</a>
 			</div>
