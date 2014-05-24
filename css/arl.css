@@ -141,5 +141,5 @@ ul.vnav	{list-style-type:none;padding:5;margin-left:0;text-align:left;float:left
 
 div.bookList	{float:left;margin:0px;padding:3px;width:13em;background:rgb(223,255,255)}
 
-button.btnNextDay {margin-top:10px;font-size:smaller; border:1px solid #000;padding:5px;background-color:#8E90D6;text-decoration:none;color:#000;border-radius:5px;}
+button.btnNextDay {margin-top:10px;font-size:smaller; border:1px solid #000;padding:5px;background-color:#8E90D6;text-decoration:none;color:#fff;border-radius:5px;}
 button.btnNextDay:hover {color:#FFFFFF;background-color:#4E2B75}
