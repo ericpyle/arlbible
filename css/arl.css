@@ -10,7 +10,7 @@ html,body	{height:100%;font-size:1.2em;line-height:1.4em;color:black}
     font-weight: normal;
     font-style: normal;
 }
-html,body	{font-family: "Gentium", "Charis SIL", "Times New Roman", serif;}
+html,body	{font-family: "Gentium", "Charis SIL", "Times New Roman", serif;font-size: 12pt;}
 h1 { font-weight: normal; }
 .main	{min-height:100%;/*margin-bottom:-4em;*/padding:0.5em}
 .main:after	{content:"";display:block}
@@ -132,11 +132,11 @@ ul.tnav	{list-style-type:none;padding:5;margin-left:0;text-align:center}
 .tnav a:link	{color:#000040}
 .tnav a:hover	{color:#FFFFFF;background-color:#4E2B75}
 
-ul.vnav	{list-style-type:none;padding:5;margin-left:0;text-align:center;float:left}
+ul.vnav	{list-style-type:none;padding:5;margin-left:0;text-align:left;float:left}
 .vnav li	{list-style-type:none}
-.vnav a	{display:block;padding:3px;background-color:#036;border-bottom:1px solid #eee;text-decoration:none;width:12em}
+.vnav a	{display:block;padding:3px;padding-right:10px;padding-left:10px;background-color:#CCCCEC;border-bottom:1px solid #fff;text-decoration:none;/*width:12em*/border-radius:5px;}
 .vnav a:visited	{color:#ffff66}
-.vnav a:link	{color: #ffffff}
-.vnav a:hover	{background-color:#0520ff !important;color:#ffffff}
+.vnav a:link	{color: #000040}
+.vnav a:hover	{background-color:#4E2B75 !important;color:#ffffff}
 
 div.bookList	{float:left;margin:0px;padding:3px;width:13em;background:rgb(223,255,255)}
