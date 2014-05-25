@@ -34,13 +34,44 @@ $(document).ready(function () {
 		else
 			arlBookmarkDay = "1";
 	}
+	languageToVersion =
+    {
+        "eng": [{ path: 'bibles/eng/kjv', displayName: 'KJV - King James Version' },
+                { path: 'bibles/eng/web', displayName: 'WEB - World English Bible' }],
+        "cmn": [{ path: 'bibles/cmn/cmnCUVs', displayName: 'Chinese Union (Simplified)' },
+                { path: 'bibles/cmn/cmnCUt', displayName: 'Chinese Union (Traditional)' }],
+        "spa": [{ path: 'bibles/spa/spa1909', displayName: 'Reina Valera (1909)' }],
+    };
+	if (arlCookie.language == undefined)
+	    arlCookie.language = 'eng';
+	$("#languageChooser").change(function () {
+	    var langCode = $(this).val();
+	    populateVersionControl(langCode);
+	    displayAllBCHeading();
+	});
+
+	function populateVersionControl(langCode) {
+	    var versionInfo = languageToVersion[langCode];
+	    $("#versionChapterPath").empty();
+	    for (var i = 0; i < versionInfo.length; i++) {
+	        var versionData = versionInfo[i];
+	        var versionOption = $('<option value="' + versionData.path + '">' + versionData.displayName + '</option>');
+	        $("#versionChapterPath").append(versionOption);
+	        $('#versionChapterPath').trigger("chosen:updated");
+	    }
+	}
+
+	$("#languageChooser").val(arlCookie.language);
 	if (arlCookie.versionChapterPath == undefined)
-		arlCookie.versionChapterPath = "kjv";
+	    arlCookie.versionChapterPath = languageToVersion['eng'][0].path;
+	populateVersionControl(arlCookie.language);
 	$("#versionChapterPath").val(arlCookie.versionChapterPath);
+
 	$('#tbDay').val(arlBookmarkDay);
 	$("#versionChapterPath").change(function () {
 		displayAllBCHeading();
 	});
+
 	displayAllBCHeading();
 });
 
