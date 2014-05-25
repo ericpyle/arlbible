@@ -58,6 +58,7 @@ $(document).ready(function () {
 	        var versionOption = $('<option value="' + versionData.path + '">' + versionData.displayName + '</option>');
 	        $("#versionChapterPath").append(versionOption);
 	        $('#versionChapterPath').trigger("chosen:updated");
+	        $('#tabs').tabs('select', '#tabs-1');
 	    }
 	}
 
@@ -132,7 +133,8 @@ function displayAllBCHeading() {
 	$('.drumDayNumber').text(day);
 	$('#accordion1').accordion("activate", false);
 	var chapterPath = $('#versionChapterPath').val();
-	ARL.initialize(chapterPath);
+	var language = $('#languageChooser').val();
+	ARL.initialize(chapterPath, language);
 	ARL.loadPlannedPages(day);
 };
 
@@ -147,8 +149,9 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 
 	var timeEstimates = new Array(5);
 
-	function initialize(chapterPath) {
-		oconfiguration.chapterPath = chapterPath;
+	function initialize(chapterPath, language) {
+	    oconfiguration.chapterPath = chapterPath;
+	    oconfiguration.language = language;
 	}
 
 	function displayBCHeadingLink(day, mapArray, genre) {
@@ -163,7 +166,7 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 	};
 
 	function loadPlannedPages(day, genreToActivate) {
-		$.cookie('arl-bookmark', { "day": day, versionChapterPath: oconfiguration.chapterPath }, { expires: 999 });
+		$.cookie('arl-bookmark', { "day": day, versionChapterPath: oconfiguration.chapterPath, language: oconfiguration.language }, { expires: 999 });
 		loadBCHeadingLink(day, mapDtHistoryToBC, "DtHistory");
 		loadBCHeadingLink(day, mapWisdomToBC, "Wisdom");
 		loadBCHeadingLink(day, mapProphetsToBC, "Prophets");
