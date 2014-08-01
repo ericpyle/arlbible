@@ -229,12 +229,12 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 				});
 			jQuery(this).find("div.footnote")
 				.each(function () {
-				    $(this).find('p.f').hide();
-				    var fnCount = $(this).find('p.f').size();
+				    $(this).find('p').hide();
+				    var fnCount = $(this).find('p').size();
                     if (fnCount > 0)
                         $('<div class="footnote_toggle">footnotes</div>').insertAfter($(this).find('hr').first())
                             .click(function () {
-                                $(this).siblings('p.f').toggle("slow", function () {
+                                $(this).siblings('p').toggle("slow", function () {
                                     // Animation complete.
                                 });
                             });
