@@ -227,6 +227,18 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 					importLink(idGenreDiv, $(this));
 					//"javascript:loadGenrePage('#content_DtHistory', '" + bookAbbr + pad2(ch) + ".htm');");
 				});
+			jQuery(this).find("div.footnote")
+				.each(function () {
+				    $(this).find('p.f').hide();
+				    var fnCount = $(this).find('p.f').size();
+                    if (fnCount > 0)
+                        $('<div class="footnote_toggle">footnotes</div>').insertAfter($(this).find('hr').first())
+                            .click(function () {
+                                $(this).siblings('p.f').toggle("slow", function () {
+                                    // Animation complete.
+                                });
+                            });
+				});
 			if (fLoadOnly)
 				return;
 			activateAccordionPanel('#accordion1', genre);
