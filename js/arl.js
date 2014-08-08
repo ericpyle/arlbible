@@ -293,9 +293,8 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 		$(accordionSelector).accordion("option", "collapsible", false);
 		$(accordionSelector).accordion("activate", index);
 		$(accordionSelector).accordion("option", "collapsible", true);
-
 		//$.scrollTo($(accordionSelector).children('table').eq(index), 200);
-		//document.getElementById('mainDocTop').scrollIntoView(true);
+	    //document.getElementById('mainDocTop').scrollIntoView(true);
 
 	}
 
