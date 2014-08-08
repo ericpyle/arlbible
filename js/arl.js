@@ -88,6 +88,8 @@ function showTab(event, ui) {
 }
 
 function accordionOnChange(event, ui) {
+
+    $('.footnote_toggle').siblings('p').hide();
 	var active = ui.newHeader.parent().accordion("option", "active");
 	//alert(active);
 	if (active >= 0) {
