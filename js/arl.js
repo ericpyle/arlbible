@@ -231,13 +231,17 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 				.each(function () {
 				    $(this).find('p').hide();
 				    var fnCount = $(this).find('p').size();
-                    if (fnCount > 0)
-                        $('<div class="footnote_toggle">footnotes</div>').insertAfter($(this).find('hr').first())
+				    if (fnCount > 0) {
+				        $('<div class="footnote_toggle">footnotes</div>').insertAfter($(this).find('hr').first())
                             .click(function () {
                                 $(this).siblings('p').toggle("slow", function () {
                                     // Animation complete.
                                 });
                             });
+				        $('.notemark').click(function () {
+				            $('.footnote_toggle').siblings('p').show();
+				        });
+				    }
 				});
 			if (fLoadOnly)
 				return;
