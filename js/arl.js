@@ -212,15 +212,29 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 		var heading = convertBCAbbrToHeading(bcAbbr);
 		var ch = parseInt(bcAbbr.substring(3), 10);
 		$("#HeadingBCRef_" + genre).text(heading + " " + (ch ? ch : ""));
-		//document.location.href="#mainDocTop";
-		$(idGenreDiv).load(oconfiguration.chapterPath + "/" + bcPage, function () {
+	    //document.location.href="#mainDocTop";
+		if (ch) {
+		    // there's probably a restful way to post current chapter to href !#/blah
+            // but just store the state internally for now.
+		    $(idGenreDiv).data("current_chapter", ch.toString());
+		    $(idGenreDiv).data("chapter_selection", false);
+		}
+		else
+		{
+		    $(idGenreDiv).data("chapter_selection", true);
+		}
 
+
+		$(idGenreDiv).load(oconfiguration.chapterPath + "/" + bcPage, function () {
+		    var current_chapter = $(idGenreDiv).data("current_chapter");
 			// disassemble the page into book
 			//var bcAbbr = bcPage.split('.')[0];
-			//var bookAbbr = bcAbbr.substring(0, 3);
+		    //var bookAbbr = bcAbbr.substring(0, 3);
 			jQuery(this).find("ul.tnav li a")
 				.each(function (index) {
-					importLink(idGenreDiv, $(this));
+				    importLink(idGenreDiv, $(this));
+				    if ($(this).text() == current_chapter && $(idGenreDiv).data("chapter_selection"))
+				        $(this).addClass("current_chapter");
 					//"javascript:loadGenrePage('#content_DtHistory', '" + bookAbbr + pad2(ch) + ".htm');");
 
 				});
