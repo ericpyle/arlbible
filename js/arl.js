@@ -78,12 +78,6 @@ $(document).ready(function () {
 
 function showTab(event, ui) {
 	if (ui.index == 0) {
-		//var active = $("#accordion1").accordion( "option", "active" );
-		//alert(active)
-		//if (active)
-		//	$.scrollTo($('#accordion1').children('table').eq(active), 200);
-		//alert(active);
-		//$("#accordion1").accordion( "activate" , index);
 	}
 }
 
@@ -94,7 +88,7 @@ function accordionOnChange(event, ui) {
 	//alert(active);
 	if (active >= 0) {
 		//alert(active);
-		$.scrollTo(ui.newHeader.parent().children('table').eq(active), 200);
+	    $.scrollTo(ui.newHeader.parent().children('.accordion_header').eq(active), 200);
 	}
 	// ui.newHeader // jQuery object, activated header
 	// ui.oldHeader // jQuery object, previous header
@@ -177,7 +171,6 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 		if (genreToActivate) {
 			//var index = genreIndex(genreToActivate);
 			activateAccordionPanel('#accordion1', genreToActivate);
-			//$.scrollTo($('#accordion1').children('table').eq(index), 200);
 		}
 	}
 
@@ -267,7 +260,7 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 			//$(window).scrollTo(0);
 			//if (fLoadOnly)
 			//	return;
-			$.scrollTo($('#accordion1').children('table').eq(index), 200);
+			$.scrollTo($('#accordion1').children('.accordion_header').eq(index), 200);
 			//$.scrollTo(0, 200);
 			//$(window).scrollTop(0);
 
