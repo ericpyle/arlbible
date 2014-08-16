@@ -73,8 +73,22 @@ $(document).ready(function () {
 		displayAllBCHeading();
 	});
 
+//	fillBibleStatsWithChapters();
 	displayAllBCHeading();
 });
+
+//function fillBibleStatsWithChapters() {
+//    for (var key in BookStats) {  
+//        if (key.length > 3) {
+//            var bookCode = key.substring(0, 3);
+//            book = BookStats[bookCode];
+//            var chapterCode = parseInt(key.substring(3, key.length));
+//            if (!book.chapters || chapterCode > book.chapters) {
+//                book.chapters = chapterCode;
+//            }
+//        };
+//    }
+//}
 
 function showTab(event, ui) {
 	if (ui.index == 0) {
@@ -205,6 +219,8 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 		var heading = convertBCAbbrToHeading(bcAbbr);
 		var ch = parseInt(bcAbbr.substring(3), 10);
 		$("#HeadingBCRef_" + genre).text(heading + " " + (ch ? ch : ""));
+		var chapters = BookStats[bookCode].chapters;
+		$("#HeadingChaptersCount_" + genre).text(ch ? "(of " + chapters + ")" : "");
 	    //document.location.href="#mainDocTop";
 		if (ch) {
 		    // there's probably a restful way to post current chapter to href !#/blah
