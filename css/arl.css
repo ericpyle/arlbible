@@ -146,6 +146,10 @@ button.btnNextDay {margin-top:10px;font-size:smaller; border:1px solid #000;padd
 button.btnNextDay:hover {color:#FFFFFF;background-color:#4E2B75}
 .timeEstimation, .genreDescription 
  {font-size: smaller; color: #A0A0A0;}
+.genreName, .genreDescription {  
+    margin: 0 auto;
+    width: 80%;
+}
 .timeEstimation { margin-right:10px;}
 #HeadingChaptersCount_DtHistory,
 #HeadingChaptersCount_Wisdom,
@@ -160,3 +164,16 @@ button.btnNextDay:hover {color:#FFFFFF;background-color:#4E2B75}
     width:200px;
     text-align:right
 }
+
+.loopDaysLeft, .daysLeftDescription, .chapterDaysLeft, .chapterDaysLeft {
+    float:right;margin-right: 10px;color: #C0C0C0; font-size: smaller;
+}
+.loopDaysLeft {
+    background-color: whitesmoke;
+    border-style:solid; border-width: medium; border-radius: 20px; padding: 5px;
+}
+#Heading_loopDaysLeft_DtHistory { color: purple; /* #783EB6; */}
+#Heading_loopDaysLeft_Wisdom { color: indianred; /* #C9464C; */}
+#Heading_loopDaysLeft_Prophets { color: #4D5BA2; /* blue */}
+#Heading_loopDaysLeft_Gospels { color: #3B8142; /* green */}
+#Heading_loopDaysLeft_ChurchHistory { color: darkgoldenrod; /* #D9CB44 */}

@@ -204,6 +204,18 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 		}
 		$("#totalTimeEstimation").text(totalTime.toFixed(2));
 	}
+
+	function getMapFromGenre(genre) {
+	    switch (genre) {
+	        case "DtHistory": return mapDtHistoryToBC;
+	        case "Wisdom": return mapWisdomToBC;
+	        case "Prophets": return mapProphetsToBC;
+	        case "Gospels": return mapGospelsToBC;
+	        case "ChurchHistory": return mapChurchHistoryToBC;
+	        default: return [];
+	    }
+	}
+
 	function loadGenrePage(idGenreDiv, bcPage, fLoadOnly) {
 		var bookCode = bcPage.substring(0, 3);
 		var verses = BookStats[bookCode].verses;
@@ -219,8 +231,11 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 		var heading = convertBCAbbrToHeading(bcAbbr);
 		var ch = parseInt(bcAbbr.substring(3), 10);
 		$("#HeadingBCRef_" + genre).text(heading + " " + (ch ? ch : ""));
-		var chapters = BookStats[bookCode].chapters;
-		$("#HeadingChaptersCount_" + genre).text(ch ? "(of " + chapters + ")" : "");
+		var mapArray = getMapFromGenre(genre);
+		var daysIntoLoop = mapArray.indexOf(bcAbbr);
+		$("#Heading_loopDaysLeft_" + genre).text((ch ? (mapArray.length - daysIntoLoop) : ""));
+		var chaptersLeft = BookStats[bookCode].chapters - ch + 1;
+		$("#HeadingChaptersCount_" + genre).text(ch ? chaptersLeft : "");
 	    //document.location.href="#mainDocTop";
 		if (ch) {
 		    // there's probably a restful way to post current chapter to href !#/blah
