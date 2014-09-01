@@ -172,8 +172,8 @@ button.btnNextDay:hover {color:#FFFFFF;background-color:#4E2B75}
     background-color: whitesmoke;
     border-style:solid; border-width: medium; border-radius: 20px; padding: 5px;
 }
-#Heading_loopDaysLeft_DtHistory { color: purple; /* #783EB6; */}
-#Heading_loopDaysLeft_Wisdom { color: indianred; /* #C9464C; */}
-#Heading_loopDaysLeft_Prophets { color: #4D5BA2; /* blue */}
-#Heading_loopDaysLeft_Gospels { color: #3B8142; /* green */}
-#Heading_loopDaysLeft_ChurchHistory { color: darkgoldenrod; /* #D9CB44 */}
+#Heading_loopDaysLeft_DtHistory { color: indianred; /* #C9464C; */}
+#Heading_loopDaysLeft_Wisdom { color: #4D5BA2; /* blue */}
+#Heading_loopDaysLeft_Prophets { color: darkgoldenrod; /* #D9CB44 */}
+#Heading_loopDaysLeft_Gospels { color: purple; /* #783EB6; */}
+#Heading_loopDaysLeft_ChurchHistory { color: #3B8142; /* green */}
