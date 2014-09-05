@@ -234,7 +234,8 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 		var mapArray = getMapFromGenre(genre);
 		var daysIntoLoop = mapArray.indexOf(bcAbbr);
 		$("#Heading_loopDaysLeft_" + genre).text((ch ? (mapArray.length - daysIntoLoop) : ""));
-		var chaptersLeft = BookStats[bookCode].chapters - ch + 1;
+	    var totalChapters = BookStats[bookCode].chapters;
+	    var chaptersLeft = totalChapters - ch + 1;
 		$("#HeadingChaptersCount_" + genre).text(ch ? chaptersLeft : "");
 	    //document.location.href="#mainDocTop";
 		if (ch) {
@@ -257,8 +258,14 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 			jQuery(this).find("ul.tnav li a")
 				.each(function (index) {
 				    importLink(idGenreDiv, $(this));
-				    if ($(this).text() == current_chapter && $(idGenreDiv).data("chapter_selection"))
-				        $(this).addClass("current_chapter");
+				    if ($(this).text() == current_chapter) {
+				        if ($(idGenreDiv).data("chapter_selection"))
+				            $(this).addClass("current_chapter");
+				        else {
+				            $(this).html(current_chapter + "<span class='ch-selection-total'> / " + totalChapters + '</span> <span class="ch-selection-ellipsis">' +'\u2026</span>');
+				        }
+				    }
+				        
 					//"javascript:loadGenrePage('#content_DtHistory', '" + bookAbbr + pad2(ch) + ".htm');");
 
 				});

@@ -177,3 +177,6 @@ button.btnNextDay:hover {color:#FFFFFF;background-color:#4E2B75}
 #Heading_loopDaysLeft_Prophets { color: darkgoldenrod; /* #D9CB44 */}
 #Heading_loopDaysLeft_Gospels { color: purple; /* #783EB6; */}
 #Heading_loopDaysLeft_ChurchHistory { color: #3B8142; /* green */}
+
+.ch-selection-total{ color: slategray;}
+.ch-selection-ellipsis {font-size:small;}
