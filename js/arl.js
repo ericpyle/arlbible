@@ -23,6 +23,10 @@ $(document).ready(function () {
 		displayAllBCHeading();
 	});
 
+	$('.loopDaysLeft').attr('title', 'loop days left');
+	$('.chapterDaysLeft').attr('title', 'book days left');
+    $('.timeEstimation').attr('title', 'estimated time for chapter');
+    
 	$.cookie.json = true;
 	var arlCookie = $.cookie('arl-bookmark');
 	if (arlCookie == undefined)
@@ -263,6 +267,7 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 				            $(this).addClass("current_chapter");
 				        else {
 				            $(this).html(current_chapter + "<span class='ch-selection-total'> / " + totalChapters + '</span> <span class="ch-selection-ellipsis">' +'\u2026</span>');
+				            $(this).attr('title', 'click to select chapter');
 				        }
 				    }
 				        
