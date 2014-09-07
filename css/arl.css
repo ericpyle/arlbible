@@ -169,7 +169,9 @@ button.btnNextDay:hover {color:#FFFFFF;background-color:#4E2B75}
     float:right;margin-right: 10px;color: #C0C0C0; font-size: smaller;
 }
 .loopDaysLeft {
-    background-color: whitesmoke;
+    background-color: white;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
     border-style:solid; border-width: medium; border-radius: 20px; padding: 5px;
 }
 #Heading_loopDaysLeft_DtHistory { color: indianred; /* #C9464C; */}
