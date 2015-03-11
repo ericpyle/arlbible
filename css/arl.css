@@ -183,3 +183,7 @@ button.btnNextDay:hover {color:#FFFFFF;background-color:#4E2B75}
 
 .ch-selection-total{ color: slategray;}
 .ch-selection-ellipsis {font-size:small;}
+
+.accordion, .accordion_header {
+    
+}
