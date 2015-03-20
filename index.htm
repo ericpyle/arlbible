@@ -1,103 +1,90 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:nowhere">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:nowhere">
 <head>
-<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<META name="copyright" content="Copyright 2010">
-<link type="text/css" href="css/smoothness/jquery-ui-1.8.1.custom.css" rel="stylesheet" />
-<link rel="stylesheet" href="css/arl.css" type="text/css" />
-<title> ARL Bible</title>
-<meta name="keywords" content=", , Holy Bible, Scripture, Bible, Scriptures, New Testament, Old Testament, Gospel">
-<meta http-equiv="Content-Script-Type" content="text/javascript"> 
-    	<meta http-equiv="Content-Script-Type" content="text/javascript"> 				 
-    	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.cookie.js"></script>  
-		<script type="text/javascript" src="js/jquery-ui-1.8.1.custom.min.js"></script> 
-		<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script> 
-		<script type="text/javascript" src="js/jquery.localscroll-min.js"></script> 
-		<script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
-		<script type="text/javascript" src="js/BibleRef.js"></script>
-		<script type="text/javascript" src="js/BigInteger.min.js"></script>
-		<script type="text/javascript" src="js/arl.js"></script>
-<script type="text/javascript">
-	$(function() {
-		$(".accordion").accordion({
-			autoHeight: false,
-			navigation: true,
-			collapsible: true,
-			active: false,
-			change: function(event, ui) { accordionOnChange(event, ui); }
-		});
-		
-		// Tabs
-		$('#tabs').tabs(
-		{
-   			show: function(event, ui) { showTab(event, ui); }
-		}
-		
-		);
-	});
-	
-	$(document).ready(function(){
-		$('.accordion table').width('100%');
-		$.localScroll();	
-		//loadGenrePage("#content_DtHistory", "GEN01.htm");
-		//loadGenrePage("#content_Wisdom", "JOB01.htm");
-		//loadGenrePage("#content_Prophets", "ISA01.htm");
-		//loadGenrePage("#content_Gospels", "MAT01.htm");
-		//loadGenrePage("#content_ChurchHistory", "ACT01.htm");
-	});
-</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="copyright" content="Copyright 2010"/>
+    <link type="text/css" href="css/smoothness/jquery-ui-1.8.1.custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/arl.css" type="text/css" />
+    <title>ARL Bible</title>
+    <meta name="keywords" content=", , Holy Bible, Scripture, Bible, Scriptures, New Testament, Old Testament, Gospel"/>
+    <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+    <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.1.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="js/jquery.localscroll-min.js"></script>
+    <script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
+    <script type="text/javascript" src="js/BibleRef.js"></script>
+    <script type="text/javascript" src="js/BigInteger.min.js"></script>
+    <script type="text/javascript" src="js/arl.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".accordion").accordion({
+                autoHeight: false,
+                navigation: true,
+                collapsible: true,
+                active: false,
+                change: function (event, ui) { accordionOnChange(event, ui); }
+            });
+
+            // Tabs
+            $('#tabs').tabs(
+            {
+                show: function (event, ui) { showTab(event, ui); }
+            }
+
+            );
+        });
+
+        $(document).ready(function () {
+            $('.accordion table').width('100%');
+            $.localScroll();
+        });
+    </script>
 </head>
 <body class="mainDoc">
-<a id="mainDocTop" name="mainDocTop"></a>
-<div id="tabs"> 
-			<ul> 
-				<li><a href="#tabs-1"><b>ARL</b></a></li>
-				<li><a href="#tabs-2">Choose Book</a></li>
-			</ul>
-			<div id="tabs-1">
-				<div style="font-size:small;margin-bottom:10px;color:gray;">Accelerated Reading Loop &copy; 2010 Ben Drum</div>
-			    <p></p>
-                <select id="languageChooser">
-		            <option value="eng">English</option>
-                    <option value="cmn">Chinese</option>
-                    <option value="spa">Spanish</option>
-	            </select>
-				<div style="text-align:center;">			
-					<a class="daynav" href="javascript:prevDay();">&lt;</a> &nbsp;&nbsp;
-					Day <input id="tbDay" type="text" value="1" onkeypress="SetDay(event);" style="width: 156px; border-style:hidden; background-color:#F1F3F8;"/>
-	 				<a class="daynav" href="javascript:nextDay();">&gt;</a>
- 				</div>
-<!--
-Skip to Day<br /> 
-<input id="btnSetDay" type="button" value="OK" />
-<span class="drumDayNumber">{1}</span>
-<div class="bookLine"><a id="BCHeading_DtHistory" href="javascript:void(0);">{Genesis 1}</a></div>
-<div class="bookLine"><a id="BCHeading_Wisdom" href="javascript:void(0);">{Job 1}</a></div>
-<div class="bookLine"><a id="BCHeading_Prophets" href="javascript:void(0);">{Isaiah 1}</a></div>
-<div class="bookLine"><a id="BCHeading_Gospels" href="javascript:void(0);">{Matthew 1}</a></div>
-<div class="bookLine"><a id="BCHeading_ChurchHistory" href="javascript:void(0);">{Acts 1}</a></div>-->
-<div style="font-size:smaller;margin-top:10px;">
-	<select id="versionChapterPath">
-	</select>
-</div>
-<div style="text-align:center;">
-<button class="btnNextDay">DONE</button>
-</div>
-<div style="font-size:smaller;color:darkslategray;"> Total Estimated Reading Time: <span style="color:gray;" id="totalTimeEstimation">0</span> <span style="color:gray">minutes</span></div>
-				<div>
-				<div id="accordion1" class="accordion">					
-					<div class="accordion_header">
-						<div style="width:1px;"><a href="#"></a></div>
+    <a id="mainDocTop"></a>
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1"><b>ARL</b></a></li>
+            <li><a href="#tabs-2">Choose Book</a></li>
+        </ul>
+        <div id="tabs-1">
+            <div style="font-size: small; margin-bottom: 10px; color: gray;">Accelerated Reading Loop &copy; 2010 Ben Drum</div>
+            <p></p>
+            <select id="languageChooser">
+                <option value="eng">English</option>
+                <option value="cmn">Chinese</option>
+                <option value="spa">Spanish</option>
+            </select>
+            <div style="text-align: center;">
+                <a class="daynav" href="javascript:prevDay();">&lt;</a> &nbsp;&nbsp;Day
+                <input id="tbDay" type="text" value="1" onkeypress="SetDay(event);" style="width: 156px; border-style: hidden; background-color: #F1F3F8;" />
+                <a class="daynav" href="javascript:nextDay();">&gt;</a>
+            </div>
+            <div style="font-size: smaller; margin-top: 10px;">
+                <select id="versionChapterPath">
+                </select>
+            </div>
+            <div style="text-align: center;">
+                <button class="btnNextDay">DONE</button>
+            </div>
+            <div style="font-size: smaller; color: darkslategray;">Total Estimated Reading Time: <span style="color: gray;" id="totalTimeEstimation">0</span> <span style="color: gray">minutes</span></div>
+            <div>
+                <div id="accordion1" class="accordion">
+                    <div class="accordion_header">
+                        <div style="width: 1px;"><a href="#"></a></div>
                         <div class="loopDaysLeft" id="Heading_loopDaysLeft_DtHistory">400</div>
                         <div align="center" class="genreName"><b>History of Israel</b></div>
                         <div align="center" class="genreDescription">Genesis...Esther</div>
-                        <div class="chapterDaysLeft" id="HeadingChaptersCount_DtHistory"></div>                       
+                        <div class="chapterDaysLeft" id="HeadingChaptersCount_DtHistory"></div>
                         <div class="HeadingBCRef"><span id="HeadingBCRef_DtHistory" class="HeadingBCRef">Genesis 1</span></div>
                         <div align="right" class="timeEstimation">~<span id="timeEstimation_DtHistory">0</span> min</div>
-					</div>
-					<div id="content_DtHistory" ></div>
+                    </div>
+                    <div id="content_DtHistory"></div>
                     <div class="accordion_header">
-                        <div style="width:1px;"><a href="#"></a></div>
+                        <div style="width: 1px;"><a href="#"></a></div>
                         <div class="loopDaysLeft" id="Heading_loopDaysLeft_Wisdom">300</div>
                         <div align="center" class="genreName"><b>Wisdom</b></div>
                         <div align="center" class="genreDescription">Job...Songs</div>
@@ -105,9 +92,9 @@ Skip to Day<br />
                         <div class="HeadingBCRef"><span id="HeadingBCRef_Wisdom" class="HeadingBCRef">Job 1 </span></div>
                         <div align="right" class="timeEstimation">~<span id="timeEstimation_Wisdom">0</span> min</div>
                     </div>
-					<div id="content_Wisdom" ></div>
-                    <div class="accordion_header">                        
-                        <div style="width:1px;"><a href="#"></a></div>
+                    <div id="content_Wisdom"></div>
+                    <div class="accordion_header">
+                        <div style="width: 1px;"><a href="#"></a></div>
                         <div class="loopDaysLeft" id="Heading_loopDaysLeft_Prophets">200</div>
                         <div align="center" class="genreName"><b>Prophets</b></div>
                         <div align="center" class="genreDescription">Isaiah...Malachi</div>
@@ -115,9 +102,9 @@ Skip to Day<br />
                         <div class="HeadingBCRef"><span id="HeadingBCRef_Prophets" class="HeadingBCRef">Isaiah 1 </span></div>
                         <div align="right" class="timeEstimation">~<span id="timeEstimation_Prophets">0</span> min</div>
                     </div>
-					<div id="content_Prophets" ></div>
+                    <div id="content_Prophets"></div>
                     <div class="accordion_header">
-                        <div style="width:1px;"><a href="#"></a></div>
+                        <div style="width: 1px;"><a href="#"></a></div>
                         <div class="loopDaysLeft" id="Heading_loopDaysLeft_Gospels">200</div>
                         <div align="center" class="genreName"><b>Gospels</b></div>
                         <div align="center" class="genreDescription">Matthew...John</div>
@@ -125,9 +112,9 @@ Skip to Day<br />
                         <div class="HeadingBCRef"><span id="HeadingBCRef_Gospels" class="HeadingBCRef">Matthew 1 </span></div>
                         <div align="right" class="timeEstimation">~<span id="timeEstimation_Gospels">0</span> min</div>
                     </div>
-					<div id="content_Gospels" ></div>
+                    <div id="content_Gospels"></div>
                     <div class="accordion_header">
-                        <div style="width:1px;"><a href="#"></a></div>
+                        <div style="width: 1px;"><a href="#"></a></div>
                         <div class="loopDaysLeft" id="Heading_loopDaysLeft_ChurchHistory">100</div>
                         <div align="center" class="genreName"><b>Church History</b></div>
                         <div align="center" class="genreDescription">Acts...Revelation</div>
@@ -135,125 +122,158 @@ Skip to Day<br />
                         <div class="HeadingBCRef"><span id="HeadingBCRef_ChurchHistory" class="HeadingBCRef">Acts 1 </span></div>
                         <div align="right" class="timeEstimation">~<span id="timeEstimation_ChurchHistory">0</span> min</div>
                     </div>
-					<div id="content_ChurchHistory" ></div>
-						<!--
-									
-						<h3><a href="#"><b>Gospels</b> ( Matthew...John )</a>
-							<div id="HeadingBCRef_Gospels" class="HeadingBCRef">Matthew 1</div></h3>
-						<div id="content_Gospels" ></div>					
-						<h3><a href="#"><b>Church History</b> ( Acts...Revelation )</a>
-							<div id="HeadingBCRef_ChurchHistory" class="HeadingBCRef">Acts 1</div></h3>
-						<div id="content_ChurchHistory" ></div>				
-						-->
-				</div>
-				</div>
-				<div style="text-align:center;">
-					<button class="btnNextDay">DONE</button>
-				</div>
-				<a id="jumpToTop" href="#mainDocTop">Top</a>
-			</div>
-			
-			<div id="tabs-2">
-<div style="width: 250px;">
-	<div id="accordion2" class="accordion">
-		<table class="accordion_header"><tr><td width="20px;"><a href="#"></a></td><td><b>History of Israel</b></td></tr>
-		<tr><td></td><td>Genesis...Esther</td></tr></table>
-		<div id="#BookList_DtHistory">
-            <ul class="vnav">
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'GEN01.htm');">Genesis</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'EXO01.htm');">Exodus</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'LEV01.htm');">Leviticus</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'NUM01.htm');">Numbers</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'DEU01.htm');">Deuteronomy</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'JOS01.htm');">Joshua</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'JDG01.htm');">Judges</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'RUT01.htm');">Ruth</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', '1SA01.htm');">1 Samuel</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', '2SA01.htm');">2 Samuel</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', '1KI01.htm');">1 Kings</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', '2KI01.htm');">2 Kings</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', '1CH01.htm');">1 Chronicles</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', '2CH01.htm');">2 Chronicles</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'EZR01.htm');">Ezra</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'NEH01.htm');">Nehemiah</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'EST01.htm');">Esther</a></li>
-            </ul>
-		</div>
-		<table class="accordion_header"><tr><td width="20px;"><a href="#"></a></td><td><b>Wisdom</b></td></tr>
-		<tr><td></td><td>Job...Song of Solomon</td></tr></table>	
-		<div id="#BookList_Wisdom">
-			<ul class="vnav">
-                <li><a href="javascript:ARL.loadGenrePage('#content_Wisdom', 'JOB01.htm');">Job</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Wisdom', 'PSA001.htm');">Psalms</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Wisdom', 'PRO01.htm');">Proverbs</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Wisdom', 'ECC01.htm');">Ecclesiastes</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Wisdom', 'SNG01.htm');">Song of Solomon</a></li>
-		    </ul>
+                    <div id="content_ChurchHistory"></div>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <button class="btnNextDay">DONE</button>
+            </div>
+            <a id="jumpToTop" href="#mainDocTop">Top</a>
         </div>
-		<table class="accordion_header"><tr><td width="20px;"><a href="#"></a></td><td><b>Prophets</b></td></tr>
-		<tr><td></td><td>Isaiah...Malachi</td></tr></table>
-		<div id="#BookList_Prophets">
-            <ul class="vnav">
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'ISA01.htm');">Isaiah</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'JER01.htm');">Jeremiah</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'LAM01.htm');">Lamentations</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'EZK01.htm');">Ezekiel</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'DAN01.htm');">Daniel</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'HOS01.htm');">Hosea</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'JOL01.htm');">Joel</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'AMO01.htm');">Amos</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'OBA01.htm');">Obadiah</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'JON01.htm');">Jonah</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'MIC01.htm');">Micah</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'NAM01.htm');">Nahum</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'HAB01.htm');">Habakkuk</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'ZEP01.htm');">Zephaniah</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'HAG01.htm');">Haggai</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'ZEC01.htm');">Zechariah</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'MAL01.htm');">Malachi</a></li>
-		    </ul>
+
+        <div id="tabs-2">
+            <div style="width: 250px;">
+                <div id="accordion2" class="accordion">
+                    <table class="accordion_header">
+                        <tr>
+                            <td width="20px;"><a href="#"></a></td>
+                            <td><b>History of Israel</b></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Genesis...Esther</td>
+                        </tr>
+                    </table>
+                    <div id="#BookList_DtHistory">
+                        <ul class="vnav">
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'GEN01.htm');">Genesis</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'EXO01.htm');">Exodus</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'LEV01.htm');">Leviticus</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'NUM01.htm');">Numbers</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'DEU01.htm');">Deuteronomy</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'JOS01.htm');">Joshua</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'JDG01.htm');">Judges</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'RUT01.htm');">Ruth</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', '1SA01.htm');">1 Samuel</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', '2SA01.htm');">2 Samuel</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', '1KI01.htm');">1 Kings</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', '2KI01.htm');">2 Kings</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', '1CH01.htm');">1 Chronicles</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', '2CH01.htm');">2 Chronicles</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'EZR01.htm');">Ezra</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'NEH01.htm');">Nehemiah</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_DtHistory', 'EST01.htm');">Esther</a></li>
+                        </ul>
+                    </div>
+                    <table class="accordion_header">
+                        <tr>
+                            <td width="20px;"><a href="#"></a></td>
+                            <td><b>Wisdom</b></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Job...Song of Solomon</td>
+                        </tr>
+                    </table>
+                    <div id="#BookList_Wisdom">
+                        <ul class="vnav">
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Wisdom', 'JOB01.htm');">Job</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Wisdom', 'PSA001.htm');">Psalms</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Wisdom', 'PRO01.htm');">Proverbs</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Wisdom', 'ECC01.htm');">Ecclesiastes</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Wisdom', 'SNG01.htm');">Song of Solomon</a></li>
+                        </ul>
+                    </div>
+                    <table class="accordion_header">
+                        <tr>
+                            <td width="20px;"><a href="#"></a></td>
+                            <td><b>Prophets</b></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Isaiah...Malachi</td>
+                        </tr>
+                    </table>
+                    <div id="#BookList_Prophets">
+                        <ul class="vnav">
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'ISA01.htm');">Isaiah</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'JER01.htm');">Jeremiah</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'LAM01.htm');">Lamentations</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'EZK01.htm');">Ezekiel</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'DAN01.htm');">Daniel</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'HOS01.htm');">Hosea</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'JOL01.htm');">Joel</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'AMO01.htm');">Amos</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'OBA01.htm');">Obadiah</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'JON01.htm');">Jonah</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'MIC01.htm');">Micah</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'NAM01.htm');">Nahum</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'HAB01.htm');">Habakkuk</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'ZEP01.htm');">Zephaniah</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'HAG01.htm');">Haggai</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'ZEC01.htm');">Zechariah</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Prophets', 'MAL01.htm');">Malachi</a></li>
+                        </ul>
+                    </div>
+                    <table class="accordion_header">
+                        <tr>
+                            <td width="20px;"><a href="#"></a></td>
+                            <td><b>Gospels</b></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Matthew...John</td>
+                        </tr>
+                    </table>
+                    <div id="#BookList_Gospels">
+                        <ul class="vnav">
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Gospels', 'MAT01.htm');">Matthew</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Gospels', 'MRK01.htm');">Mark</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Gospels', 'LUK01.htm');">Luke</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_Gospels', 'JHN01.htm');">John</a></li>
+                        </ul>
+                    </div>
+                    <table class="accordion_header">
+                        <tr>
+                            <td width="20px;"><a href="#"></a></td>
+                            <td><b>Church History</b></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Acts...Revelation</td>
+                        </tr>
+                    </table>
+                    <div id="#BookList_ChurchHistory">
+                        <ul class="vnav">
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'ACT01.htm');">Acts</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'ROM01.htm');">Romans</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '1CO01.htm');">1 Corinthians</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '2CO01.htm');">2 Corinthians</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'GAL01.htm');">Galatians</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'EPH01.htm');">Ephesians</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'PHP01.htm');">Philippians</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'COL01.htm');">Colossians</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '1TH01.htm');">1 Thessalonians</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '2TH01.htm');">2 Thessalonians</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '1TI01.htm');">1 Timothy</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '2TI01.htm');">2 Timothy</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'TIT01.htm');">Titus</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'PHM01.htm');">Philemon</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'HEB01.htm');">Hebrews</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'JAS01.htm');">James</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '1PE01.htm');">1 Peter</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '2PE01.htm');">2 Peter</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '1JN01.htm');">1 John</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '2JN01.htm');">2 John</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '3JN01.htm');">3 John</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'JUD01.htm');">Jude</a></li>
+                            <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'REV01.htm');">Revelation</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- accordian -->
+            </div>
         </div>
-		<table class="accordion_header"><tr><td width="20px;"><a href="#"></a></td><td><b>Gospels</b></td></tr>
-		<tr><td></td><td>Matthew...John</td></tr></table>
-		<div id="#BookList_Gospels">
-			<ul class="vnav">
-                <li><a href="javascript:ARL.loadGenrePage('#content_Gospels', 'MAT01.htm');">Matthew</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Gospels', 'MRK01.htm');">Mark</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Gospels', 'LUK01.htm');">Luke</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_Gospels', 'JHN01.htm');">John</a></li>
-            </ul>
-		</div>
-		<table class="accordion_header"><tr><td width="20px;"><a href="#"></a></td><td><b>Church History</b></td></tr>
-		<tr><td></td><td>Acts...Revelation</td></tr></table>
-		<div id="#BookList_ChurchHistory">
-            <ul class="vnav">
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'ACT01.htm');">Acts</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'ROM01.htm');">Romans</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '1CO01.htm');">1 Corinthians</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '2CO01.htm');">2 Corinthians</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'GAL01.htm');">Galatians</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'EPH01.htm');">Ephesians</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'PHP01.htm');">Philippians</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'COL01.htm');">Colossians</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '1TH01.htm');">1 Thessalonians</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '2TH01.htm');">2 Thessalonians</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '1TI01.htm');">1 Timothy</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '2TI01.htm');">2 Timothy</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'TIT01.htm');">Titus</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'PHM01.htm');">Philemon</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'HEB01.htm');">Hebrews</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'JAS01.htm');">James</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '1PE01.htm');">1 Peter</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '2PE01.htm');">2 Peter</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '1JN01.htm');">1 John</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '2JN01.htm');">2 John</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', '3JN01.htm');">3 John</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'JUD01.htm');">Jude</a></li>
-			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'REV01.htm');">Revelation</a></li>
-            </ul>
-		</div>
-      </div> <!-- accordian -->
-     </div>
-   </div>
-</div>
-</body></html>
+    </div>
+</body>
+</html>
