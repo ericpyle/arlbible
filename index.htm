@@ -43,7 +43,7 @@
         });
     </script>
 </head>
-<body class="mainDoc">
+<body>
     <a id="mainDocTop"></a>
     <div id="tabs">
         <ul>
@@ -52,12 +52,13 @@
         </ul>
         <div id="tabs-1">
             <div style="font-size: small; margin-bottom: 10px; color: gray;">Accelerated Reading Loop &copy; 2010 Ben Drum</div>
-            <p></p>
-            <select id="languageChooser">
-                <option value="eng">English</option>
-                <option value="cmn">Chinese</option>
-                <option value="spa">Spanish</option>
-            </select>
+            <div style="font-size: smaller; margin-top: 10px;">
+                <select id="languageChooser">
+                    <option value="eng">English</option>
+                    <option value="cmn">Chinese</option>
+                    <option value="spa">Spanish</option>
+                </select>
+            </div>
             <div style="text-align: center;">
                 <a class="daynav" href="javascript:prevDay();">&lt;</a> &nbsp;&nbsp;Day
                 <input id="tbDay" type="text" value="1" onkeypress="SetDay(event);" style="width: 156px; border-style: hidden; background-color: #F1F3F8;" />
