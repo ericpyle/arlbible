@@ -53,11 +53,15 @@
 			<ul> 
 				<li><a href="#tabs-1"><b>ARL</b></a></li>
 				<li><a href="#tabs-2">Choose Book</a></li>
-				<li><a href="#tabs-3">Languages</a></li>
 			</ul>
 			<div id="tabs-1">
 				<div style="font-size:small;margin-bottom:10px;color:gray;">Accelerated Reading Loop &copy; 2010 Ben Drum</div>
-				<p></p>
+			    <p></p>
+                <select id="languageChooser">
+		            <option value="eng">English</option>
+                    <option value="cmn">Chinese</option>
+                    <option value="spa">Spanish</option>
+	            </select>
 				<div style="text-align:center;">			
 					<a class="daynav" href="javascript:prevDay();">&lt;</a> &nbsp;&nbsp;
 					Day <input id="tbDay" type="text" value="1" onkeypress="SetDay(event);" style="width: 156px; border-style:hidden; background-color:#F1F3F8;"/>
@@ -248,19 +252,8 @@ Skip to Day<br />
 			    <li><a href="javascript:ARL.loadGenrePage('#content_ChurchHistory', 'REV01.htm');">Revelation</a></li>
             </ul>
 		</div>
-</div> <!-- accordian -->
-</div>
-
-</div>
-<div id="tabs-3">
-	<p></p>
-	Choose Language
-	<select id="languageChooser">
-		<option value="eng">English</option>
-        <option value="cmn">Chinese</option>
-        <option value="spa">Spanish</option>
-	</select>
-	<p></p>
-</div>
+      </div> <!-- accordian -->
+     </div>
+   </div>
 </div>
 </body></html>
