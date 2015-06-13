@@ -26,12 +26,18 @@ $(document).ready(function () {
 	$('.loopDaysLeft').attr('title', 'loop days left');
 	$('.chapterDaysLeft').attr('title', 'book days left');
     $('.timeEstimation').attr('title', 'estimated time for chapter');
-    
-	$.cookie.json = true;
-	var arlCookie = $.cookie('arl-bookmark');
-	if (arlCookie == undefined)
-		arlCookie = { "day": 1, versionChapterPath: $("#versionChapterPath").val(), language: "eng" };
-	var arlBookmarkDay = arlCookie.day;
+
+    var urlParams = $.url().fparam();
+    var arlBookmarkDay = 1;
+    $.cookie.json = true;
+    var arlCookie = $.cookie('arl-bookmark');
+    if (urlParams['day']) {
+        arlBookmarkDay = bigInt(urlParams['day']);
+    } else {
+        if (arlCookie == undefined)
+            arlCookie = { "day": arlBookmarkDay, versionChapterPath: $("#versionChapterPath").val(), language: "eng" };
+        arlBookmarkDay = arlCookie.day;
+    }
 	if (arlBookmarkDay == undefined) {
 		if (arlCookie > 0)
 			arlBookmarkDay = arlCookie;
@@ -46,8 +52,12 @@ $(document).ready(function () {
                 { path: 'bibles/cmn/cmnCUt', displayName: 'Chinese Union (Traditional)' }],
         "spa": [{ path: 'bibles/spa/spa1909', displayName: 'Reina Valera (1909)' }],
     };
-	if (arlCookie.language == undefined)
-	    arlCookie.language = 'eng';
+	if (urlParams['language']) {
+	    arlCookie.language = urlParams['language'];
+	} else {
+	    if (arlCookie.language == undefined)
+	        arlCookie.language = 'eng';
+    }
 	$("#languageChooser").change(function () {
 	    var langCode = $(this).val();
 	    populateVersionControl(langCode);
@@ -67,10 +77,14 @@ $(document).ready(function () {
 	}
 
 	$("#languageChooser").val(arlCookie.language);
-	if (arlCookie.versionChapterPath == undefined)
-	    arlCookie.versionChapterPath = languageToVersion['eng'][0].path;
 	populateVersionControl(arlCookie.language);
-	$("#versionChapterPath").val(arlCookie.versionChapterPath);
+	if (urlParams['version']) {
+	    arlCookie.versionChapterPath = 'bibles/' + arlCookie.language + '/' + urlParams['version'];
+	} else {
+	    if (arlCookie.versionChapterPath == undefined)
+	        arlCookie.versionChapterPath = languageToVersion['eng'][0].path;
+    }
+    $("#versionChapterPath").val(arlCookie.versionChapterPath);
 
 	$('#tbDay').val(arlBookmarkDay);
 	$("#versionChapterPath").change(function () {
@@ -180,7 +194,12 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 	};
 
 	function loadPlannedPages(day, genreToActivate) {
-		$.cookie('arl-bookmark', { "day": day, versionChapterPath: oconfiguration.chapterPath, language: oconfiguration.language }, { expires: 999 });
+	    $.cookie('arl-bookmark', { "day": day, versionChapterPath: oconfiguration.chapterPath, language: oconfiguration.language }, { expires: 999 });
+	    var version = oconfiguration.chapterPath.split(/\//).pop();
+	    var newHashObj = { 'day': day, 'language': oconfiguration.language, 'version': version };
+	    var newHash = '#' + $.param(newHashObj);
+	    if (document.location.hash != newHash)
+	        document.location.hash = newHash;
 		loadBCHeadingLink(day, mapDtHistoryToBC, "DtHistory");
 		loadBCHeadingLink(day, mapWisdomToBC, "Wisdom");
 		loadBCHeadingLink(day, mapProphetsToBC, "Prophets");
