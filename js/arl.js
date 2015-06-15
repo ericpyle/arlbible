@@ -51,6 +51,7 @@ $(document).ready(function () {
         "cmn": [{ path: 'bibles/cmn/cmnCUVs', displayName: 'Chinese Union (Simplified)' },
                 { path: 'bibles/cmn/cmnCUt', displayName: 'Chinese Union (Traditional)' }],
         "spa": [{ path: 'bibles/spa/spa1909', displayName: 'Reina Valera (1909)' }],
+        "kor": [{ path: 'bibles/kor/kor', displayName: 'Korean Bible' }],
     };
 	if (urlParams['language']) {
 	    arlCookie.language = urlParams['language'];
