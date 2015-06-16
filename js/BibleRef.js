@@ -1,4 +1,4 @@
-var SILTitleAbbrToHeader_eng = new Object();
+var SILTitleAbbrToHeader_eng = {};
 SILTitleAbbrToHeader_eng["GEN"] = "Genesis";
 SILTitleAbbrToHeader_eng["EXO"] = "Exodus";
 SILTitleAbbrToHeader_eng["LEV"] = "Leviticus";

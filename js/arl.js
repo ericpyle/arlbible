@@ -51,7 +51,7 @@ $(document).ready(function () {
         "cmn": [{ path: 'bibles/cmn/cmnCUVs', displayName: 'Chinese Union (Simplified)' },
                 { path: 'bibles/cmn/cmnCUt', displayName: 'Chinese Union (Traditional)' }],
         "spa": [{ path: 'bibles/spa/spa1909', displayName: 'Reina Valera (1909)' }],
-        "kor": [{ path: 'bibles/kor/kor', displayName: 'Korean Bible' }],
+        "kor": [{ path: 'bibles/kor/kor', displayName: 'Korean Bible', bcPageMethod: htmlBibleBcPageMethod }],
     };
 	if (urlParams['language']) {
 	    arlCookie.language = urlParams['language'];
@@ -64,6 +64,15 @@ $(document).ready(function () {
 	    populateVersionControl(langCode);
 	    displayAllBCHeading();
 	});
+    
+	function htmlBibleBcPageMethod(bookNum, chapter) {
+	    return 'B' + pad(bookNum, 2) + 'C' + pad(chapter, 3) + '.htm';
+	}
+    
+	function pad(num, size) {
+	    var s = "000000000" + num;
+	    return s.substr(s.length - size);
+	}
 
 	function populateVersionControl(langCode) {
 	    var versionInfo = languageToVersion[langCode];
@@ -163,7 +172,15 @@ function displayAllBCHeading() {
 	$('#accordion1').accordion("activate", false);
 	var chapterPath = $('#versionChapterPath').val();
 	var language = $('#languageChooser').val();
-	ARL.initialize(chapterPath, language);
+    var bcPageMethod = null;
+    for (var i = 0; i < languageToVersion[language].length ; i++) {
+        var item = languageToVersion[language][i];
+	    if (item.path == chapterPath && item.bcPageMethod) {
+	        bcPageMethod = item.bcPageMethod;
+	        break;
+	    }
+	}
+	ARL.initialize(chapterPath, language, bcPageMethod);
 	ARL.loadPlannedPages(day);
 };
 
@@ -178,9 +195,10 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 
 	var timeEstimates = new Array(5);
 
-	function initialize(chapterPath, language) {
+	function initialize(chapterPath, language, bcPageMethod) {
 	    oconfiguration.chapterPath = chapterPath;
 	    oconfiguration.language = language;
+	    oconfiguration.bcPageMethod = bcPageMethod;
 	}
 
 	function displayBCHeadingLink(day, mapArray, genre) {
@@ -240,6 +258,16 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 	    }
 	}
 
+	function indexOfKeyInDictionary(d, key) {
+	    var i = 0;
+	    for (var k in d) {
+	        if (k == key)
+	            return i;
+	        i++;
+	    }
+	    return -1;
+	}
+
 	function loadGenrePage(idGenreDiv, bcPage, fLoadOnly) {
 		var bookCode = bcPage.substring(0, 3);
 		var verses = BookStats[bookCode].verses;
@@ -272,7 +300,10 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 		{
 		    $(idGenreDiv).data("chapter_selection", true);
 		}
-
+		if (oconfiguration.bcPageMethod) {
+		    var bookNum = indexOfKeyInDictionary(SILTitleAbbrToHeader_eng, bookCode) + 1;
+		    bcPage = oconfiguration.bcPageMethod(bookNum, ch);
+		}
 
 		$(idGenreDiv).load(oconfiguration.chapterPath + "/" + bcPage, function () {
 		    var current_chapter = $(idGenreDiv).data("current_chapter");
@@ -379,13 +410,13 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 
 	function pad2(number) {
 
-		return (number < 10 ? '0' : '') + number
+	    return (number < 10 ? '0' : '') + number;
 
 	}
 
 	function pad3(number) {
 
-		return (number < 10 ? '00' : '') + number
+	    return (number < 10 ? '00' : '') + number;
 
 	}
 
