@@ -1,49 +1,49 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:nowhere">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="copyright" content="Copyright 2010"/>
-    <link type="text/css" href="css/smoothness/jquery-ui-1.8.1.custom.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/arl.css" type="text/css" />
-    <title>ARL Bible</title>
-    <meta name="keywords" content=", , Holy Bible, Scripture, Bible, Scriptures, New Testament, Old Testament, Gospel"/>
-    <meta http-equiv="Content-Script-Type" content="text/javascript"/>
-    <meta http-equiv="Content-Script-Type" content="text/javascript"/>
-    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-    <script type="text/javascript" src="js/jquery.url.js"></script>
-    <script type="text/javascript" src="js/jquery.cookie.js"></script>
-    <script type="text/javascript" src="js/jquery-ui-1.8.1.custom.min.js"></script>
-    <script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
-    <script type="text/javascript" src="js/jquery.localscroll-min.js"></script>
-    <script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
-    <script type="text/javascript" src="js/BibleRef.js"></script>
-    <script type="text/javascript" src="js/BigInteger.min.js"></script>
-    <script type="text/javascript" src="js/arl.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $(".accordion").accordion({
-                autoHeight: false,
-                navigation: true,
-                collapsible: true,
-                active: false,
-                change: function (event, ui) { accordionOnChange(event, ui); }
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+        <meta name="copyright" content="Copyright 2010"/>
+        <link type="text/css" href="css/smoothness/jquery-ui-1.8.1.custom.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/arl.css" type="text/css" />
+        <title>ARL Bible</title>
+        <meta name="keywords" content=", , Holy Bible, Scripture, Bible, Scriptures, New Testament, Old Testament, Gospel"/>
+        <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+        <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+        <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.url.js"></script>
+        <script type="text/javascript" src="js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.1.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+        <script type="text/javascript" src="js/jquery.localscroll-min.js"></script>
+        <script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
+        <script type="text/javascript" src="js/BibleRef.js"></script>
+        <script type="text/javascript" src="js/BigInteger.min.js"></script>
+        <script type="text/javascript" src="js/arl.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $(".accordion").accordion({
+                    autoHeight: false,
+                    navigation: true,
+                    collapsible: true,
+                    active: false,
+                    change: function (event, ui) { accordionOnChange(event, ui); }
+                });
+
+                // Tabs
+                $('#tabs').tabs(
+                    {
+                        show: function (event, ui) { showTab(event, ui); }
+                    }
+
+                );
             });
 
-            // Tabs
-            $('#tabs').tabs(
-            {
-                show: function (event, ui) { showTab(event, ui); }
-            }
-
-            );
-        });
-
-        $(document).ready(function () {
-            $('.accordion table').width('100%');
-            $.localScroll();
-        });
-    </script>
-</head>
+            $(document).ready(function () {
+                $('.accordion table').width('100%');
+                $.localScroll();
+            });
+        </script>
+    </head>
 <body>
     <a id="mainDocTop"></a>
     <div id="tabs">
