@@ -70,7 +70,7 @@ $(document).ready(function () {
 	function htmlBibleBcPageMethod(bookNum, chapter) {
 	    return 'B' + pad(bookNum, 2) + 'C' + pad(chapter, 3) + '.htm';
 	}
-    
+
 	function pad(num, size) {
 	    var s = "000000000" + num;
 	    return s.substr(s.length - size);
@@ -332,6 +332,18 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 					importLink(idGenreDiv, $(this));
 					//"javascript:loadGenrePage('#content_DtHistory', '" + bookAbbr + pad2(ch) + ".htm');");
 				});
+			if (oconfiguration.bcPageMethod) {
+			    jQuery(this).find('[name="MyForm"] a[href]')
+				.each(function (i) {
+				    if (i < 3) {
+				        var s = $(this).attr('href');
+				        if (isHtmlBiblePage(s))
+				            importLink(idGenreDiv, $(this));
+				    } else {
+				        return false;
+				    }
+				});
+			}
 			jQuery(this).find("div.footnote")
 				.each(function () {
 				    $(this).find('p').hide();
@@ -361,8 +373,44 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 			//$(window).scrollTop(0);
 
 		});
+	    
+		function isHtmlBiblePage(s) {
+		    if (s == null)
+		        return false;
+		    if (s[0] == 'B' && s[3] == 'C' && endsWith(s, '.htm'))
+		        return true;
+		    return false;
+		}
 
+		function endsWith(str, suffix) {
+		    return str.indexOf(suffix, str.length - suffix.length) !== -1;
+		}
 
+		function importLink(id, anchorElement) {
+		    var bchtm = anchorElement.attr("href");
+		    if (oconfiguration.bcPageMethod) {
+		        if (isHtmlBiblePage(bchtm)) {
+		            bookNum = parseInt(bchtm.substring(1, 3));
+		            ch = bchtm.substring(4, 7);
+		            var i = 0;
+		            var bookName = null;
+		            for (var key in SILTitleAbbrToHeader_eng) {
+		                if (i == (bookNum - 1)) {
+		                    bookName = key;
+		                    break;
+		                }
+		                i++;
+		            }
+		            if (bookName != "PSA") {
+		                ch = ch.substring(1, 3);
+		            }
+		            bchtm = bookName + ch + ".htm";
+		        }
+		    }
+		    if (bchtm.indexOf("index") == -1)
+		        anchorElement.attr("href", "javascript:ARL.loadGenrePage('" + id + "', '" + bchtm + "');");
+		    return anchorElement;
+		}
 	}
 
 	function genreIndex(genre) {
@@ -401,13 +449,6 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 		//$.scrollTo($(accordionSelector).children('table').eq(index), 200);
 	    //document.getElementById('mainDocTop').scrollIntoView(true);
 
-	}
-
-	function importLink(idGenreDiv, anchorElement) {
-	    var bchtm = anchorElement.attr("href");
-	    if (bchtm.indexOf("index") == -1)
-		    anchorElement.attr("href","javascript:ARL.loadGenrePage('" + idGenreDiv + "', '" + bchtm + "');");
-		return anchorElement;
 	}
 
 	function pad2(number) {
