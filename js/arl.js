@@ -52,7 +52,9 @@ $(document).ready(function () {
                 { path: 'bibles/cmn/cmnCUt', displayName: 'Chinese Union (Traditional)' }],
         "spa": [{ path: 'bibles/spa/spa1909', displayName: 'Reina Valera (1909)' }],
         "kor": [{ path: 'bibles/kor/kor', displayName: 'Korean Bible', bcPageMethod: htmlBibleBcPageMethod }],
+        "vie": [{ path: 'bibles/vie/vietnamesevni', displayName: 'Vietnamese Bible', bcPageMethod: htmlBibleBcPageMethod }],
     };
+
 	if (urlParams['language']) {
 	    arlCookie.language = urlParams['language'];
 	} else {
