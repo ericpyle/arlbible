@@ -341,11 +341,12 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 				        var s = $(this).attr('href');
 				        if (isHtmlBiblePage(s)) {
 				            importLink(idGenreDiv, $(this));
-				            return true;
+				        } else {
+				            $(this).hide();
 				        }
-				        $(this).hide();
+				    } else {
+				        return false;
 				    }
-				    return false;
 				});
 			}
 			jQuery(this).find("div.footnote")
