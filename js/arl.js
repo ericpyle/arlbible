@@ -333,15 +333,19 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 					//"javascript:loadGenrePage('#content_DtHistory', '" + bookAbbr + pad2(ch) + ".htm');");
 				});
 			if (oconfiguration.bcPageMethod) {
+			    jQuery(jQuery(this).find('table')[1]).hide();
+			    jQuery(jQuery(this).find('img')[0]).hide();
 			    jQuery(this).find('[name="MyForm"] a[href]')
 				.each(function (i) {
 				    if (i < 3) {
 				        var s = $(this).attr('href');
-				        if (isHtmlBiblePage(s))
+				        if (isHtmlBiblePage(s)) {
 				            importLink(idGenreDiv, $(this));
-				    } else {
-				        return false;
+				            return true;
+				        }
+				        $(this).hide();
 				    }
+				    return false;
 				});
 			}
 			jQuery(this).find("div.footnote")
