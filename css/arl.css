@@ -1,5 +1,5 @@
 *	{margin:0;padding:0}
-html,body	{height:100%;font-size:1.2em;line-height:1.4em;color:black;background-color: #4E2B75;}
+html,body	{height:100%;font-size:1.2em;line-height:1.4em;color:black;/*background-color: #4E2B75;*/}
 /* Note: if the following 2 .woff files are in another location, please edit the two url() specifiers, below. */
 @font-face {
     font-family: 'gentiumw';
@@ -125,6 +125,10 @@ h1,h2,h3,.mt,.mt1,.mte,
 .crossRefNote	{display: block; margin-top:.5em;margin-left:0em}
 .notebackref	{margin: 1em}
 .fine,.copyright	{font-size:10pt;color:#333333}
+
+.copyright {
+    display: none;
+}
 
 ul.tnav, .footnote_toggle {list-style-type:none;padding:5;margin-left:0;text-align:center}
 .tnav li	{display:inline}
