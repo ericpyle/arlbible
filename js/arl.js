@@ -46,6 +46,7 @@ $(document).ready(function () {
 	}
 	languageToVersion =
     {
+        "arb": [{ path: 'bibles/arb/avd', displayName: 'Arabic New Van Dyck Bible (Full Vocalization with Helps)' }],
         "eng": [{ path: 'bibles/eng/kjv', displayName: 'KJV - King James Version' },
                 { path: 'bibles/eng/web', displayName: 'WEB - World English Bible' }],
         "cmn": [{ path: 'bibles/cmn/cmnCUVs', displayName: 'Chinese Union (Simplified)' },
