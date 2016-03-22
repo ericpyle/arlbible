@@ -1,4 +1,4 @@
-/**
+﻿/**
  * @author (C) 2010 Eric Pyle
  * @requires: jquery, BigInteger.min.js
  */
@@ -49,8 +49,8 @@ $(document).ready(function () {
         "arb": [{ path: 'bibles/arb/avd', displayName: 'Arabic Van Dyck Bible' }],
         "eng": [{ path: 'bibles/eng/kjv', displayName: 'KJV - King James Version' },
                 { path: 'bibles/eng/web', displayName: 'WEB - World English Bible' }],
-        "cmn": [{ path: 'bibles/cmn/cmnCUVs', displayName: 'Chinese Union (Simplified)' },
-                { path: 'bibles/cmn/cmnCUt', displayName: 'Chinese Union (Traditional)' }],
+        "cmn": [{ path: 'bibles/cmn/cmnCUVs', displayName: '中国协和简体' },
+                { path: 'bibles/cmn/cmnCUt', displayName: '中国传统联盟' }],
         "spa": [{ path: 'bibles/spa/spa1909', displayName: 'Reina Valera (1909)' }],
         "kor": [{ path: 'bibles/kor/kor', displayName: 'Korean Bible', bcPageMethod: htmlBibleBcPageMethod }],
         "vie": [{ path: 'bibles/vie/vietnamesevni', displayName: 'Vietnamese Bible', bcPageMethod: htmlBibleBcPageMethod }],
@@ -182,7 +182,8 @@ function displayAllBCHeading() {
 	        bcPageMethod = item.bcPageMethod;
 	        break;
 	    }
-	}
+    }
+    $('#version-count').text(languageToVersion[language].length);
 	ARL.initialize(chapterPath, language, bcPageMethod);
 	ARL.loadPlannedPages(day);
 };

@@ -191,3 +191,7 @@ button.btnNextDay:hover {color:#FFFFFF;background-color:#4E2B75}
 .accordion, .accordion_header {
     
 }
+
+.dim-tip {
+    font-size: 11pt; color: silver;
+}

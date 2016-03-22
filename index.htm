@@ -52,24 +52,26 @@
         </ul>
         <div id="tabs-1">
             <div style="font-size: small; margin-bottom: 10px; color: gray;">Accelerated Reading Loop &copy; 2010 Ben Drum</div>
-            <div style="font-size: smaller; margin-top: 10px;">
+            <div style="font-size: larger; margin-top: 10px;">
                 <select id="languageChooser">
-                    <option value="arb">Arabic</option>
-                    <option value="cmn">Chinese</option>
+                    <option value="arb" style="font-size: x-large">العربية</option>
+                    <option value="cmn">中文</option>
                     <option value="eng" selected="selected">English</option>
-                    <option value="kor">Korean</option>
-                    <option value="spa">Spanish</option>
-                    <option value="vie">Vietnamese</option>
+                    <option value="kor">한국어</option>
+                    <option value="spa">Español</option>
+                    <option value="vie">Tiếng Việt</option>
                 </select>
+                <span class="dim-tip">languages: 6</span>
             </div>
             <div style="text-align: center;">
                 <a class="daynav" href="javascript:prevDay();">&lt;</a> &nbsp;&nbsp;Day
                 <input id="tbDay" type="text" value="1" onkeypress="SetDay(event);" style="width: 156px; border-style: hidden; background-color: #F1F3F8;" />
                 <a class="daynav" href="javascript:nextDay();">&gt;</a>
             </div>
-            <div style="font-size: smaller; margin-top: 10px;">
+            <div style="margin-top: 10px;">
                 <select id="versionChapterPath">
                 </select>
+                <span class="dim-tip">versions: <span id="version-count"></span></span>
             </div>
             <div style="text-align: center;">
                 <button class="btnNextDay">DONE</button>
