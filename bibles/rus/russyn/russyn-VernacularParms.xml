@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vernacularParms>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularFullName">Бытие</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularFullName">Исход</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularFullName">Левит</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularFullName">Числа</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularFullName">Второзаконие</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularFullName">Иисус Навин</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularFullName">Книга Судей Израилевых</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularFullName">Руфь</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularFullName">Первая Книга Царств</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularFullName">Вторая Книга Царств</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularFullName">Третья Книга Царств</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularFullName">Четвертая Книга Царств</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularFullName">Первая Книга Паралипоменон</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularFullName">Вторая Книга Паралипоменон</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularFullName">Ездра</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularFullName">Неемия</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularFullName">Есфирь</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularFullName">Иов</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularFullName">Псалтирь</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularFullName">Книга Притчей Соломоновых</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularFullName">Книга Екклесиаста или Проповедника</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularFullName">Книга Песни Песней Соломона</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularFullName">Исаия</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularFullName">Иеремия</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularFullName">Плач Иеремии</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularFullName">Иезекииль</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularFullName">Даниил</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularFullName">Осия</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularFullName">Иоиль</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularFullName">Амос</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularFullName">Авдий</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularFullName">Иона</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularFullName">Михей</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularFullName">Наум</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularFullName">Аввакум</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularFullName">Софония</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularFullName">Аггей</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularFullName">Захария</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularFullName">Малахия</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularFullName">От Матфея</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularFullName">От Марка</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularFullName">От Луки</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularFullName">От Иоанна</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularFullName">Деяния Апостолов</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularFullName">Послание Иакова</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularFullName">Первое Послание Петра</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularFullName">Второе Послание Петра</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularFullName">Первое Послание Иоанна</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularFullName">Второе Послание Иоанна</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularFullName">Третье Послание Иоанна</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularFullName">Послание Иуды</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularFullName">Послание к Римлянам</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularFullName">Первое Послание к Коринфянам</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularFullName">Второе Послание к Коринфянам</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularFullName">Послание к Галатам</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularFullName">Послание к Эфесянам</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularFullName">Послание к Филиппийцам</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularFullName">Послание к Колоссянам</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularFullName">Первое Послание к Фессалоникийцам</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularFullName">Второе Послание к Фессалоникийцам</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularFullName">Первое Послание к Тимофею</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularFullName">Второе Послание к Тимофею</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularFullName">Послание к Титу</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularFullName">Послание к Филимону</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularFullName">Послание к Евреям</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularFullName">Откровение Иоанна</scriptureBook>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularAbbreviatedName">Бытие</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularAbbreviatedName">Исход</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularAbbreviatedName">Левит</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularAbbreviatedName">Числа</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularAbbreviatedName">Второзаконие</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularAbbreviatedName">Иисус Навин</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularAbbreviatedName">Судей</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularAbbreviatedName">Руфь</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularAbbreviatedName">1 Книга Царств</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularAbbreviatedName">2 Книга Царств</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularAbbreviatedName">3 Книга Царств</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularAbbreviatedName">4 Книга Царств</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularAbbreviatedName">1 Книга Паралипоменон</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularAbbreviatedName">2 Книга Паралипоменон</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularAbbreviatedName">Ездра</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularAbbreviatedName">Неемия</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularAbbreviatedName">Есфирь</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularAbbreviatedName">Иов</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularAbbreviatedName">Псалтирь</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularAbbreviatedName">Притчи</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularAbbreviatedName">Книга Екклесиаста</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularAbbreviatedName">Книга Песни Песней</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularAbbreviatedName">Исаия</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularAbbreviatedName">Иеремия</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularAbbreviatedName">Плач Иеремии</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularAbbreviatedName">Иезекииль</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularAbbreviatedName">Даниил</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularAbbreviatedName">Осия</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularAbbreviatedName">Иоиль</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularAbbreviatedName">Амос</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularAbbreviatedName">Авдий</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularAbbreviatedName">Иона</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularAbbreviatedName">Михей</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularAbbreviatedName">Наум</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularAbbreviatedName">Аввакум</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularAbbreviatedName">Софония</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularAbbreviatedName">Аггей</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularAbbreviatedName">Захария</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularAbbreviatedName">Малахия</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularAbbreviatedName">Матфея</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularAbbreviatedName">Марка</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularAbbreviatedName">Луки</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularAbbreviatedName">Иоанна</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularAbbreviatedName">Деяния</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularAbbreviatedName">Иакова</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularAbbreviatedName">1 Петра</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularAbbreviatedName">2 Петра</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularAbbreviatedName">1 Иоанна</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularAbbreviatedName">2 Иоанна</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularAbbreviatedName">3 Иоанна</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularAbbreviatedName">Иуды</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularAbbreviatedName">Римлянам</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularAbbreviatedName">1 Коринфянам</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularAbbreviatedName">2 Коринфянам</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularAbbreviatedName">Галатам</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularAbbreviatedName">Эфесянам</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularAbbreviatedName">Филиппийцам</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularAbbreviatedName">Колоссянам</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularAbbreviatedName">1 Фессалоникийцам</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularAbbreviatedName">2 Фессалоникийцам</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularAbbreviatedName">1 Тимофею</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularAbbreviatedName">2 Тимофею</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularAbbreviatedName">Титу</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularAbbreviatedName">Филимону</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularAbbreviatedName">Евреям</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularAbbreviatedName">Откровение</scriptureBook>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularBookAbbreviation">Быт.</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularBookAbbreviation">Исх.</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularBookAbbreviation">Лев.</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularBookAbbreviation">Чис.</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularBookAbbreviation">Втор.</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularBookAbbreviation">Нав.</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularBookAbbreviation">Суд.</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularBookAbbreviation">Руфь</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularBookAbbreviation">1 Цар.</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularBookAbbreviation">2 Цар.</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularBookAbbreviation">3 Цар.</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularBookAbbreviation">4 Цар.</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularBookAbbreviation">1 Пар.</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularBookAbbreviation">2 Пар.</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularBookAbbreviation">Езд.</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularBookAbbreviation">Неем.</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularBookAbbreviation">Есф.</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularBookAbbreviation">Иов</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularBookAbbreviation">Пс.</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularBookAbbreviation">Прит.</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularBookAbbreviation">Екк.</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularBookAbbreviation">Песн.</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularBookAbbreviation">Ис.</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularBookAbbreviation">Иер.</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularBookAbbreviation">Плач</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularBookAbbreviation">Иез.</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularBookAbbreviation">Дан.</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularBookAbbreviation">Ос.</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularBookAbbreviation">Иоиль</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularBookAbbreviation">Ам.</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularBookAbbreviation">Авд.</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularBookAbbreviation">Иона</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularBookAbbreviation">Мих.</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularBookAbbreviation">Наум</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularBookAbbreviation">Авв.</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularBookAbbreviation">Соф.</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularBookAbbreviation">Агг.</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularBookAbbreviation">Зах.</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularBookAbbreviation">Мал.</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularBookAbbreviation">Мат.</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularBookAbbreviation">Мк.</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularBookAbbreviation">Лк.</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularBookAbbreviation">Ин.</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularBookAbbreviation">Деян.</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularBookAbbreviation">Иак.</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularBookAbbreviation">1 Пет.</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularBookAbbreviation">2 Пет.</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularBookAbbreviation">1 Ин.</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularBookAbbreviation">2 Ин.</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularBookAbbreviation">3 Ин.</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularBookAbbreviation">Иуда</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularBookAbbreviation">Рим.</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularBookAbbreviation">1 Кор.</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularBookAbbreviation">2 Кор.</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularBookAbbreviation">Гал.</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularBookAbbreviation">Эф.</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularBookAbbreviation">Флп.</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularBookAbbreviation">Кол.</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularBookAbbreviation">1 Фес.</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularBookAbbreviation">2 Фес.</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularBookAbbreviation">1 Тим.</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularBookAbbreviation">2 Тим.</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularBookAbbreviation">Тит</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularBookAbbreviation">Флм.</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularBookAbbreviation">Евр.</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularBookAbbreviation">Отк.</scriptureBook>
+  <dcMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:creator>Orthodox theological academies of Moscow, Saint Petersburg, Kazan, and Kiev</dc:creator>
+    <dc:contributor />
+    <dc:title>Синодальный перевод</dc:title>
+    <dc:description>Synodal Translation of the Holy Bible in Russian</dc:description>
+    <dc:date>2016-09-22</dc:date>
+    <dc:format>digital</dc:format>
+    <dc:language>rus</dc:language>
+    <dc:publisher>Digital Bible Society</dc:publisher>
+    <dc:rights>Public Domain</dc:rights>
+    <dc:identifier />
+    <dc:type />
+  </dcMeta>
+  <numberSystem>Default</numberSystem>
+  <chapterAndVerseSeparator>.</chapterAndVerseSeparator>
+  <rangeSeparator>-</rangeSeparator>
+  <multiRefSameChapterSeparator>,</multiRefSameChapterSeparator>
+  <multiRefDifferentChapterSeparator>—</multiRefDifferentChapterSeparator>
+  <verseNumberLocation>Begin</verseNumberLocation>
+  <footnoteMarkerStyle>Circulate</footnoteMarkerStyle>
+  <footnoteMarkerResetAt>Book</footnoteMarkerResetAt>
+  <footnoteMarkers>* † ‡ §</footnoteMarkers>
+  <BookSourceForMarkerXt>Abbreviation</BookSourceForMarkerXt>
+  <BookSourceForMarkerR>ShortName</BookSourceForMarkerR>
+  <iso>rus</iso>
+  <isoVariant />
+  <langName>русский</langName>
+  <textDir>ltr</textDir>
+  <hasNotes>True</hasNotes>
+  <coverTitle>Синодальный перевод</coverTitle>
+</vernacularParms>

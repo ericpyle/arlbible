@@ -51,6 +51,7 @@ $(document).ready(function () {
                 { path: 'bibles/eng/web', displayName: 'WEB - World English Bible' }],
         "cmn": [{ path: 'bibles/cmn/cmnCUVs', displayName: '中国协和简体' },
                 { path: 'bibles/cmn/cmnCUt', displayName: '中国传统联盟' }],
+        "rus": [{ path: 'bibles/rus/russyn', displayName: 'Синодальный перевод' }],
         "spa": [{ path: 'bibles/spa/spa1909', displayName: 'Reina Valera (1909)' }],
         "kor": [{ path: 'bibles/kor/kor', displayName: 'Korean Bible', bcPageMethod: htmlBibleBcPageMethod }],
         "vie": [{ path: 'bibles/vie/vietnamesevni', displayName: 'Vietnamese Bible', bcPageMethod: htmlBibleBcPageMethod }],
