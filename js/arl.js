@@ -49,6 +49,7 @@ $(document).ready(function () {
         "arb": [{ path: 'bibles/arb/avd', displayName: 'الكتاب المقدس باللغة العربية، فان دايك (Arabic Van Dyck Bible)' }],
         "eng": [{ path: 'bibles/eng/kjv', displayName: 'KJV - King James Version' },
                 { path: 'bibles/eng/web', displayName: 'WEB - World English Bible' }],
+        "deu": [{ path: 'bibles/deu/deu1912', displayName: 'Luther Bibel 1912 (German Luther Bible 1912)' }],
         "fra": [{ path: 'bibles/fra/fra_fob', displayName: 'FOB - La Sainte Bible (Ostervald)' },
                 { path: 'bibles/fra/fraLSG', displayName: 'LSG - Louis Segond 1910 (Louis Segond version of 1910)' }],
         "cmn": [{ path: 'bibles/cmn/cmnCUVs', displayName: '中国协和简体 (Chinese Union Version - simplified)' },

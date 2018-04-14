@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vernacularParms>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularFullName">1 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularFullName">2 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularFullName">3 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularFullName">4 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularFullName">5 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularFullName">JOSUA</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularFullName">RICHTER</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularFullName">RUT</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularFullName">1 SAMUEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularFullName">2 SAMUEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularFullName">1 KOENIGE</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularFullName">2 KOENIGE</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularFullName">1 CHRONIK</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularFullName">2 CHRONIK</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularFullName">ESRA</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularFullName">NEHEMIA</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularFullName">ESTER</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularFullName">JOB</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularFullName">PSALM</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularFullName">SPRUECHE</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularFullName">PREDIGER</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularFullName">HOHELIED</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularFullName">JESAJA</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularFullName">JEREMIA</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularFullName">KLAGELIEDER</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularFullName">HESEKIEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularFullName">DANIEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularFullName">HOSEA</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularFullName">JOEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularFullName">AMOS</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularFullName">OBADJA</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularFullName">JONA</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularFullName">MICA</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularFullName">NAHUM</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularFullName">HABAKUK</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularFullName">ZEPHANJA</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularFullName">HAGGAI</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularFullName">SACHARJA</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularFullName">MALEACHI</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularFullName">MATTHAEUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularFullName">MARKUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularFullName">LUKAS</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularFullName">JOHANNES</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularFullName">APOSTELGESCHICHTE</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularFullName">ROEMERS</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularFullName">1 KORINTHER</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularFullName">2 KORINTHER</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularFullName">GALATER</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularFullName">EPHESER</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularFullName">PHILIPPER</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularFullName">KOLOSSER</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularFullName">1 THESSALONICHER</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularFullName">2 THESSALONICHER</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularFullName">1 TIMOTHEUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularFullName">2 TIMOTHEUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularFullName">TITUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularFullName">PHILEMON</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularFullName">HEBRAEER</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularFullName">JAKOBUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularFullName">1 PETRUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularFullName">2 PETRUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularFullName">1 JOHANNES</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularFullName">2 JOHANNES</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularFullName">3 JOHANNES</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularFullName">JUDAS</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularFullName">OFFENBARUNG</scriptureBook>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularAbbreviatedName">1 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularAbbreviatedName">2 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularAbbreviatedName">3 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularAbbreviatedName">4 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularAbbreviatedName">5 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularAbbreviatedName">JOSUA</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularAbbreviatedName">RICHTER</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularAbbreviatedName">RUT</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularAbbreviatedName">1 SAMUEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularAbbreviatedName">2 SAMUEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularAbbreviatedName">1 KOENIGE</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularAbbreviatedName">2 KOENIGE</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularAbbreviatedName">1 CHRONIK</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularAbbreviatedName">2 CHRONIK</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularAbbreviatedName">ESRA</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularAbbreviatedName">NEHEMIA</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularAbbreviatedName">ESTER</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularAbbreviatedName">JOB</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularAbbreviatedName">PSALM</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularAbbreviatedName">SPRUECHE</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularAbbreviatedName">PREDIGER</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularAbbreviatedName">HOHELIED</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularAbbreviatedName">JESAJA</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularAbbreviatedName">JEREMIA</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularAbbreviatedName">KLAGELIEDER</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularAbbreviatedName">HESEKIEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularAbbreviatedName">DANIEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularAbbreviatedName">HOSEA</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularAbbreviatedName">JOEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularAbbreviatedName">AMOS</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularAbbreviatedName">OBADJA</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularAbbreviatedName">JONA</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularAbbreviatedName">MICA</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularAbbreviatedName">NAHUM</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularAbbreviatedName">HABAKUK</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularAbbreviatedName">ZEPHANJA</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularAbbreviatedName">HAGGAI</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularAbbreviatedName">SACHARJA</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularAbbreviatedName">MALEACHI</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularAbbreviatedName">MATTHAEUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularAbbreviatedName">MARKUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularAbbreviatedName">LUKAS</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularAbbreviatedName">JOHANNES</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularAbbreviatedName">APOSTELGESCHICHTE</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularAbbreviatedName">ROEMERS</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularAbbreviatedName">1 KORINTHER</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularAbbreviatedName">2 KORINTHER</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularAbbreviatedName">GALATER</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularAbbreviatedName">EPHESER</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularAbbreviatedName">PHILIPPER</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularAbbreviatedName">KOLOSSER</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularAbbreviatedName">1 THESSALONICHER</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularAbbreviatedName">2 THESSALONICHER</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularAbbreviatedName">1 TIMOTHEUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularAbbreviatedName">2 TIMOTHEUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularAbbreviatedName">TITUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularAbbreviatedName">PHILEMON</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularAbbreviatedName">HEBRAEER</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularAbbreviatedName">JAKOBUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularAbbreviatedName">1 PETRUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularAbbreviatedName">2 PETRUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularAbbreviatedName">1 JOHANNES</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularAbbreviatedName">2 JOHANNES</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularAbbreviatedName">3 JOHANNES</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularAbbreviatedName">JUDAS</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularAbbreviatedName">OFFENBARUNG</scriptureBook>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularBookAbbreviation">1 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularBookAbbreviation">2 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularBookAbbreviation">3 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularBookAbbreviation">4 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularBookAbbreviation">5 MOSE</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularBookAbbreviation">JOSUA</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularBookAbbreviation">RICHTER</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularBookAbbreviation">RUT</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularBookAbbreviation">1 SAMUEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularBookAbbreviation">2 SAMUEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularBookAbbreviation">1 KOENIGE</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularBookAbbreviation">2 KOENIGE</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularBookAbbreviation">1 CHRONIK</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularBookAbbreviation">2 CHRONIK</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularBookAbbreviation">ESRA</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularBookAbbreviation">NEHEMIA</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularBookAbbreviation">ESTER</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularBookAbbreviation">JOB</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularBookAbbreviation">PSALM</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularBookAbbreviation">SPRUECHE</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularBookAbbreviation">PREDIGER</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularBookAbbreviation">HOHELIED</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularBookAbbreviation">JESAJA</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularBookAbbreviation">JEREMIA</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularBookAbbreviation">KLAGELIEDER</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularBookAbbreviation">HESEKIEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularBookAbbreviation">DANIEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularBookAbbreviation">HOSEA</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularBookAbbreviation">JOEL</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularBookAbbreviation">AMOS</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularBookAbbreviation">OBADJA</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularBookAbbreviation">JONA</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularBookAbbreviation">MICA</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularBookAbbreviation">NAHUM</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularBookAbbreviation">HABAKUK</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularBookAbbreviation">ZEPHANJA</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularBookAbbreviation">HAGGAI</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularBookAbbreviation">SACHARJA</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularBookAbbreviation">MALEACHI</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularBookAbbreviation">MATTHAEUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularBookAbbreviation">MARKUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularBookAbbreviation">LUKAS</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularBookAbbreviation">JOHANNES</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularBookAbbreviation">APOSTELGESCHICHTE</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularBookAbbreviation">ROEMERS</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularBookAbbreviation">1 KORINTHER</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularBookAbbreviation">2 KORINTHER</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularBookAbbreviation">GALATER</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularBookAbbreviation">EPHESER</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularBookAbbreviation">PHILIPPER</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularBookAbbreviation">KOLOSSER</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularBookAbbreviation">1 THESSALONICHER</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularBookAbbreviation">2 THESSALONICHER</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularBookAbbreviation">1 TIMOTHEUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularBookAbbreviation">2 TIMOTHEUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularBookAbbreviation">TITUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularBookAbbreviation">PHILEMON</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularBookAbbreviation">HEBRAEER</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularBookAbbreviation">JAKOBUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularBookAbbreviation">1 PETRUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularBookAbbreviation">2 PETRUS</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularBookAbbreviation">1 JOHANNES</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularBookAbbreviation">2 JOHANNES</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularBookAbbreviation">3 JOHANNES</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularBookAbbreviation">JUDAS</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularBookAbbreviation">OFFENBARUNG</scriptureBook>
+  <dcMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:creator>Martin Luther</dc:creator>
+    <dc:contributor />
+    <dc:title>Luther Bibel 1912</dc:title>
+    <dc:description>The Holy Bible in German, Luther 1912</dc:description>
+    <dc:date>2014-08-21</dc:date>
+    <dc:format>digital</dc:format>
+    <dc:language>deu</dc:language>
+    <dc:publisher>Digital Bible Society</dc:publisher>
+    <dc:rights>Public Domain</dc:rights>
+    <dc:identifier />
+    <dc:type />
+  </dcMeta>
+  <numberSystem>Default</numberSystem>
+  <chapterAndVerseSeparator>.</chapterAndVerseSeparator>
+  <rangeSeparator>-</rangeSeparator>
+  <multiRefSameChapterSeparator>,</multiRefSameChapterSeparator>
+  <multiRefDifferentChapterSeparator>—</multiRefDifferentChapterSeparator>
+  <verseNumberLocation>Begin</verseNumberLocation>
+  <footnoteMarkerStyle>Circulate</footnoteMarkerStyle>
+  <footnoteMarkerResetAt>Book</footnoteMarkerResetAt>
+  <footnoteMarkers>* † ‡ §</footnoteMarkers>
+  <BookSourceForMarkerXt>Abbreviation</BookSourceForMarkerXt>
+  <BookSourceForMarkerR>ShortName</BookSourceForMarkerR>
+  <iso>deu</iso>
+  <isoVariant />
+  <langName>Deutsch</langName>
+  <textDir>ltr</textDir>
+  <hasNotes>True</hasNotes>
+  <coverTitle>Luther Bibel 1912</coverTitle>
+</vernacularParms>
