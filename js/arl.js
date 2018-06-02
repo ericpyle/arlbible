@@ -47,16 +47,17 @@ $(document).ready(function () {
 	languageToVersion =
     {
         "arb": [{ path: 'bibles/arb/avd', displayName: 'الكتاب المقدس باللغة العربية، فان دايك (Arabic Van Dyck Bible)' }],
+        "cmn": [{ path: 'bibles/cmn/cmnCUVs', displayName: '中国协和简体 (Chinese Union Version - simplified)' },
+                { path: 'bibles/cmn/cmnCUt', displayName: '中国传统联盟 (Chinese Union Version - traditional)' }],
         "eng": [{ path: 'bibles/eng/kjv', displayName: 'KJV - King James Version' },
                 { path: 'bibles/eng/web', displayName: 'WEB - World English Bible' }],
         "deu": [{ path: 'bibles/deu/deu1912', displayName: 'Luther Bibel 1912 (German Luther Bible 1912)' }],
         "fra": [{ path: 'bibles/fra/fra_fob', displayName: 'FOB - La Sainte Bible (Ostervald)' },
                 { path: 'bibles/fra/fraLSG', displayName: 'LSG - Louis Segond 1910 (Louis Segond version of 1910)' }],
-        "cmn": [{ path: 'bibles/cmn/cmnCUVs', displayName: '中国协和简体 (Chinese Union Version - simplified)' },
-                { path: 'bibles/cmn/cmnCUt', displayName: '中国传统联盟 (Chinese Union Version - traditional)' }],
+        "hin": [{ path: 'bibles/hin/hin2017', displayName: 'पवित्र बाइबिल (Hindi Bible - © 2017, 2018 Bridge Connectivity Solutions - CC BY-SA 4.0)' }],
+        "kor": [{ path: 'bibles/kor/kor', displayName: 'Korean Bible', bcPageMethod: htmlBibleBcPageMethod }],
         "rus": [{ path: 'bibles/rus/russyn', displayName: 'Синодальный перевод (Russian Synodal Translation)' }],
         "spa": [{ path: 'bibles/spa/spa1909', displayName: 'Reina Valera (1909)' }],
-        "kor": [{ path: 'bibles/kor/kor', displayName: 'Korean Bible', bcPageMethod: htmlBibleBcPageMethod }],
         "vie": [{ path: 'bibles/vie/vietnamesevni', displayName: 'Vietnamese Bible', bcPageMethod: htmlBibleBcPageMethod }],
     };
 

@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vernacularParms>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularFullName">उत्पत्ति</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularFullName">निर्गमन</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularFullName">लैव्यव्यवस्था</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularFullName">गिनती</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularFullName">व्यवस्थाविवरण</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularFullName">यहोशू</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularFullName">न्यायियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularFullName">रूत</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularFullName">1 शमूएल</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularFullName">2 शमूएल</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularFullName">1 राजाओं</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularFullName">2 राजाओं</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularFullName">1 इतिहास</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularFullName">2 इतिहास</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularFullName">एज्रा</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularFullName">नहेम्याह</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularFullName">एस्तेर</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularFullName">अय्यूब</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularFullName">भजन संहिता</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularFullName">नीतिवचन</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularFullName">सभोपदेशक</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularFullName">श्रेष्ठगीत</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularFullName">यशायाह</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularFullName">यिर्मयाह</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularFullName">विलापगीत</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularFullName">यहेजकेल</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularFullName">दानिय्येल</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularFullName">होशे</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularFullName">योएल</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularFullName">आमोस</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularFullName">ओबद्याह</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularFullName">योना</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularFullName">मीका</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularFullName">नहूम</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularFullName">हबक्कूक</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularFullName">सपन्याह</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularFullName">हाग्गै</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularFullName">जकर्याह</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularFullName">मलाकी</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularFullName">मत्ती</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularFullName">मरकुस</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularFullName">लूका</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularFullName">यूहन्ना</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularFullName">प्रेरितों के काम</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularFullName">रोमियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularFullName">1 कुरिन्थियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularFullName">2 कुरिन्थियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularFullName">गलातियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularFullName">इफिसियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularFullName">फिलिप्पियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularFullName">कुलुस्सियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularFullName">1 थिस्सलुनीकियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularFullName">2 थिस्सलुनीकियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularFullName">1 तीमुथियुस</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularFullName">2 तीमुथियुस</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularFullName">तीतुस</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularFullName">फिलेमोन</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularFullName">इब्रानियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularFullName">याकूब</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularFullName">1 पतरस</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularFullName">2 पतरस</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularFullName">1 यूहन्ना</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularFullName">2 यूहन्ना</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularFullName">3 यूहन्ना</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularFullName">यहूदा</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularFullName">प्रकाशितवाक्य</scriptureBook>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularAbbreviatedName">उत्पत्ति</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularAbbreviatedName">निर्गमन</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularAbbreviatedName">लैव्यव्यवस्था</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularAbbreviatedName">गिनती</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularAbbreviatedName">व्यवस्थाविवरण</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularAbbreviatedName">यहोशू</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularAbbreviatedName">न्यायियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularAbbreviatedName">रूत</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularAbbreviatedName">1 शमूएल</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularAbbreviatedName">2 शमूएल</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularAbbreviatedName">1 राजाओं</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularAbbreviatedName">2 राजाओं</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularAbbreviatedName">1 इतिहास</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularAbbreviatedName">2 इतिहास</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularAbbreviatedName">एज्रा</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularAbbreviatedName">नहेम्याह</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularAbbreviatedName">एस्तेर</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularAbbreviatedName">अय्यूब</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularAbbreviatedName">भजन संहिता</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularAbbreviatedName">नीतिवचन</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularAbbreviatedName">सभोपदेशक</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularAbbreviatedName">श्रेष्ठगीत</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularAbbreviatedName">यशायाह</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularAbbreviatedName">यिर्मयाह</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularAbbreviatedName">विलापगीत</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularAbbreviatedName">यहेजकेल</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularAbbreviatedName">दानिय्येल</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularAbbreviatedName">होशे</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularAbbreviatedName">योएल</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularAbbreviatedName">आमोस</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularAbbreviatedName">ओबद्याह</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularAbbreviatedName">योना</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularAbbreviatedName">मीका</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularAbbreviatedName">नहूम</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularAbbreviatedName">हबक्कूक</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularAbbreviatedName">सपन्याह</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularAbbreviatedName">हाग्गै</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularAbbreviatedName">जकर्याह</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularAbbreviatedName">मलाकी</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularAbbreviatedName">मत्ती</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularAbbreviatedName">मरकुस</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularAbbreviatedName">लूका</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularAbbreviatedName">यूहन्ना</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularAbbreviatedName">प्रेरितों के काम</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularAbbreviatedName">रोमियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularAbbreviatedName">1 कुरिन्थियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularAbbreviatedName">2 कुरिन्थियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularAbbreviatedName">गलातियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularAbbreviatedName">इफिसियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularAbbreviatedName">फिलिप्पियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularAbbreviatedName">कुलुस्सियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularAbbreviatedName">1 थिस्सलुनीकियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularAbbreviatedName">2 थिस्सलुनीकियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularAbbreviatedName">1 तीमुथियुस</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularAbbreviatedName">2 तीमुथियुस</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularAbbreviatedName">तीतुस</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularAbbreviatedName">फिलेमोन</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularAbbreviatedName">इब्रानियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularAbbreviatedName">याकूब</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularAbbreviatedName">1 पतरस</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularAbbreviatedName">2 पतरस</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularAbbreviatedName">1 यूहन्ना</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularAbbreviatedName">2 यूहन्ना</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularAbbreviatedName">3 यूहन्ना</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularAbbreviatedName">यहूदा</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularAbbreviatedName">प्रकाशितवाक्य</scriptureBook>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularBookAbbreviation">उत्पत्ति</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularBookAbbreviation">निर्गमन</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularBookAbbreviation">लैव्यव्यवस्था</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularBookAbbreviation">गिनती</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularBookAbbreviation">व्यवस्थाविवरण</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularBookAbbreviation">यहोशू</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularBookAbbreviation">न्यायियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularBookAbbreviation">रूत</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularBookAbbreviation">1 शमूएल</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularBookAbbreviation">2 शमूएल</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularBookAbbreviation">1 राजाओं</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularBookAbbreviation">2 राजाओं</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularBookAbbreviation">1 इतिहास</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularBookAbbreviation">2 इतिहास</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularBookAbbreviation">एज्रा</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularBookAbbreviation">नहेम्याह</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularBookAbbreviation">एस्तेर</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularBookAbbreviation">अय्यूब</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularBookAbbreviation">भजन</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularBookAbbreviation">नीतिवचन</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularBookAbbreviation">सभोपदेशक</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularBookAbbreviation">श्रेष्ठगीत</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularBookAbbreviation">यशायाह</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularBookAbbreviation">यिर्मयाह</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularBookAbbreviation">विलापगीत</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularBookAbbreviation">यहेजकेल</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularBookAbbreviation">दानिय्येल</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularBookAbbreviation">होशे</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularBookAbbreviation">योएल</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularBookAbbreviation">आमोस</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularBookAbbreviation">ओबद्याह</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularBookAbbreviation">योना</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularBookAbbreviation">मीका</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularBookAbbreviation">नहूम</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularBookAbbreviation">हबक्कूक</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularBookAbbreviation">सपन्याह</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularBookAbbreviation">हाग्गै</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularBookAbbreviation">जकर्याह</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularBookAbbreviation">मलाकी</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularBookAbbreviation">मत्ती</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularBookAbbreviation">मरकुस</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularBookAbbreviation">लूका</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularBookAbbreviation">यूहन्ना</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularBookAbbreviation">प्रेरितों के काम</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularBookAbbreviation">रोमियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularBookAbbreviation">1 कुरिन्थियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularBookAbbreviation">2 कुरिन्थियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularBookAbbreviation">गलातियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularBookAbbreviation">इफिसियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularBookAbbreviation">फिलिप्पियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularBookAbbreviation">कुलुस्सियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularBookAbbreviation">1 थिस्सलुनीकियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularBookAbbreviation">2 थिस्सलुनीकियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularBookAbbreviation">1 तीमुथियुस</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularBookAbbreviation">2 तीमुथियुस</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularBookAbbreviation">तीतुस</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularBookAbbreviation">फिलेमोन</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularBookAbbreviation">इब्रानियों</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularBookAbbreviation">याकूब</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularBookAbbreviation">1 पतरस</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularBookAbbreviation">2 पतरस</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularBookAbbreviation">1 यूहन्ना</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularBookAbbreviation">2 यूहन्ना</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularBookAbbreviation">3 यूहन्ना</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularBookAbbreviation">यहूदा</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularBookAbbreviation">प्रकाशितवाक्य</scriptureBook>
+  <dcMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:creator>Bridge Connectivity Solutions</dc:creator>
+    <dc:contributor />
+    <dc:title>पवित्र बाइबिल</dc:title>
+    <dc:description>The Holy Bible in the Hindi language of India</dc:description>
+    <dc:date>2018-04-17</dc:date>
+    <dc:format>digital</dc:format>
+    <dc:language>hin</dc:language>
+    <dc:publisher>http://freebiblesindia.com/</dc:publisher>
+    <dc:rights>Copyright © 2017, 2018 Bridge Connectivity Solutions
+&lt;p&gt;Status of the project:&lt;/p&gt; 
+&lt;ul&gt;
+&lt;li&gt;Stage 1 - Initial Drafting by Mother Tongue Translators -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 2 - Community Checking by Church -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 3 - Local Consultant (Theologian/Linguist) Checking -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 4 - Church Network Leaders Checking -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 5 - Further Quality Checking -- In Progress&lt;/li&gt;
+&lt;/ul&gt;
+
+This work is made available to you under the terms of the Creative Commons Attribution-Share-Alike license at http://creativecommons.org/licenses/by-sa/4.0/.
+&lt;p&gt;Status of the project:&lt;/p&gt; 
+&lt;ul&gt;
+&lt;li&gt;Stage 1 - Initial Drafting by Mother Tongue Translators -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 2 - Community Checking by Church -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 3 - Local Consultant (Theologian/Linguist) Checking -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 4 - Church Network Leaders Checking -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 5 - Further Quality Checking -- In Progress&lt;/li&gt;
+&lt;/ul&gt;</dc:rights>
+    <dc:identifier />
+    <dc:type />
+  </dcMeta>
+  <numberSystem>Devangari</numberSystem>
+  <chapterAndVerseSeparator>:</chapterAndVerseSeparator>
+  <rangeSeparator>-</rangeSeparator>
+  <multiRefSameChapterSeparator>,</multiRefSameChapterSeparator>
+  <multiRefDifferentChapterSeparator>;</multiRefDifferentChapterSeparator>
+  <verseNumberLocation>Begin</verseNumberLocation>
+  <footnoteMarkerStyle>Circulate</footnoteMarkerStyle>
+  <footnoteMarkerResetAt>Book</footnoteMarkerResetAt>
+  <footnoteMarkers>* † ‡ §</footnoteMarkers>
+  <BookSourceForMarkerXt>ShortName</BookSourceForMarkerXt>
+  <BookSourceForMarkerR>ShortName</BookSourceForMarkerR>
+  <iso>hin</iso>
+  <isoVariant />
+  <langName>हिन्दी भाषा</langName>
+  <textDir>ltr</textDir>
+  <hasNotes>True</hasNotes>
+  <coverTitle>पवित्र बाइबिल</coverTitle>
+</vernacularParms>
