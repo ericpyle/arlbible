@@ -372,6 +372,11 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 				        });
 				    }
 				});
+			const copyrightSectionNode = jQuery(this).find("div.copyright").first();
+			copyrightSectionNode.insertAfter($(this).find('.footnote_toggle').first());
+		    const copyrightAnchorLink = copyrightSectionNode.find("a[href='copyright.htm']").first();
+		    copyrightAnchorLink.attr("href", oconfiguration.chapterPath + '/copyright.htm');
+		    copyrightAnchorLink.attr("target", "_blank");
 			if (fLoadOnly)
 				return;
 			activateAccordionPanel('#accordion1', genre);
