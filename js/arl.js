@@ -372,11 +372,30 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 				        });
 				    }
 				});
-			const copyrightSectionNode = jQuery(this).find("div.copyright").first();
+			const copyrightSectionNode = jQuery(this).find('div.copyright').first();
 			copyrightSectionNode.insertAfter($(this).find('.footnote_toggle').first());
-		    const copyrightAnchorLink = copyrightSectionNode.find("a[href='copyright.htm']").first();
-		    copyrightAnchorLink.attr("href", oconfiguration.chapterPath + '/copyright.htm');
-		    copyrightAnchorLink.attr("target", "_blank");
+			const copyrightAnchorLink = copyrightSectionNode.find("a[href='copyright.htm']").first();
+			copyrightAnchorLink.attr('href', '#');
+			copyrightAnchorLink.attr('target', '_blank');
+			copyrightAnchorLink.click(function (event) {
+			    event.preventDefault();
+			    let copyrightContentNode = $(copyrightSectionNode).find('.copyright-content').first();
+			    if (copyrightContentNode.length > 0) {
+			        if (copyrightContentNode.is(":visible"))
+			            copyrightContentNode.hide('slow');
+			        else
+			            copyrightContentNode.show('slow');
+			        return;
+			    }
+			    copyrightContentNode = $('<div class="copyright-content" style="display: none;"></div>').appendTo(copyrightSectionNode);
+			    // oconfiguration.chapterPath + '/copyright.htm'
+			    $(copyrightContentNode).load(oconfiguration.chapterPath + "/copyright.htm div.main", 
+                    function () {
+                        $(copyrightContentNode).find('.toc, .nav, .tnav, .footnote, .copyright, .fine').remove();
+                        $(copyrightContentNode).show('slow');
+                    });
+			});
+
 			if (fLoadOnly)
 				return;
 			activateAccordionPanel('#accordion1', genre);
