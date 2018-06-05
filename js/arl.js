@@ -375,9 +375,8 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
 			const copyrightSectionNode = jQuery(this).find('div.copyright').first();
 			copyrightSectionNode.insertAfter($(this).find('.footnote_toggle').first());
 			const copyrightAnchorLink = copyrightSectionNode.find("a[href='copyright.htm']").first();
-			copyrightAnchorLink.attr('href', '#');
-			copyrightAnchorLink.attr('target', '_blank');
-			copyrightAnchorLink.click(function (event) {
+			copyrightAnchorLink.removeAttr('href');
+			copyrightSectionNode.click(function (event) {
 			    event.preventDefault();
 			    let copyrightContentNode = $(copyrightSectionNode).find('.copyright-content').first();
 			    if (copyrightContentNode.length > 0) {

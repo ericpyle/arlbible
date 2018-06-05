@@ -129,12 +129,12 @@ h1,h2,h3,.mt,.mt1,.mte,
 .copyright {
 }
 
-ul.tnav, .footnote_toggle {list-style-type:none;padding:5;margin-left:0;text-align:center}
+ul.tnav, .footnote_toggle, .copyright {list-style-type:none;padding:5;margin-left:0;text-align:center}
 .tnav li	{display:inline}
 .daynav,.tnav a	{display:inline-block;border:1px solid #000;padding:5px;background-color:#CCCCEC;text-decoration:none;color:#000;border-radius:5px}
 .tnav a:visited {color:#404000}
 .daynav:link,.tnav a:link	{color:#000040}
-.daynav:hover,.tnav a:hover, .footnote_toggle:hover	{color:#FFFFFF;background-color:#4E2B75; cursor: pointer;}
+.daynav:hover,.tnav a:hover, .footnote_toggle:hover, .copyright:hover	{color:#FFFFFF;background-color:#4E2B75; cursor: pointer;}
 .tnav a.current_chapter {background-color: floralwhite; color: #000040; }
 
 ul.vnav	{list-style-type:none;padding:5;margin-left:0;text-align:left;float:left}
