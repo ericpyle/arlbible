@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vernacularParms>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularFullName">ΜΑΤΘΑΙΟΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularFullName">ΜΑΡΚΟΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularFullName">ΛΟΥΚΑΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularFullName">ΙΩΑΝΝΗΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularFullName">ΠΡΑΞΕΙΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularFullName">ΡΩΜΑΙΟΥΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularFullName">ΚΟΡΙΝΘΙΟΥΣ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularFullName">ΚΟΡΙΝΘΙΟΥΣ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularFullName">ΓΑΛΑΤΑΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularFullName">ΕΦΕΣΙΟΥΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularFullName">ΦΙΛΙΠΠΗΣΙΟΥΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularFullName">ΚΟΛΟΣΣΑΕΙΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularFullName">ΘΕΣΣΑΛΟΝΙΚΕΙΣ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularFullName">ΘΕΣΣΑΛΟΝΙΚΕΙΣ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularFullName">ΤΙΜΟΘΕΟΝ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularFullName">ΤΙΜΟΘΕΟΝ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularFullName">ΤΙΤΟΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularFullName">ΦΙΛΗΜΟΝΑ</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularFullName">ΕΒΡΑΙΟΥΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularFullName">ΙΑΚΩΒΟΥ</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularFullName">ΠΕΤΡΟΥ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularFullName">ΠΕΤΡΟΥ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularFullName">ΙΩΑΝΝΟΥ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularFullName">ΙΩΑΝΝΟΥ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularFullName">ΙΩΑΝΝΟΥ Γ΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularFullName">ΙΟΥΔΑ</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularFullName">ΑΠΟΚΑΛΥΨΙΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularAbbreviatedName">ΜΑΤΘΑΙΟΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularAbbreviatedName">ΜΑΡΚΟΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularAbbreviatedName">ΛΟΥΚΑΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularAbbreviatedName">ΙΩΑΝΝΗΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularAbbreviatedName">ΠΡΑΞΕΙΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularAbbreviatedName">ΡΩΜΑΙΟΥΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularAbbreviatedName">ΚΟΡΙΝΘΙΟΥΣ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularAbbreviatedName">ΚΟΡΙΝΘΙΟΥΣ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularAbbreviatedName">ΓΑΛΑΤΑΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularAbbreviatedName">ΕΦΕΣΙΟΥΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularAbbreviatedName">ΦΙΛΙΠΠΗΣΙΟΥΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularAbbreviatedName">ΚΟΛΟΣΣΑΕΙΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularAbbreviatedName">ΘΕΣΣΑΛΟΝΙΚΕΙΣ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularAbbreviatedName">ΘΕΣΣΑΛΟΝΙΚΕΙΣ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularAbbreviatedName">ΤΙΜΟΘΕΟΝ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularAbbreviatedName">ΤΙΜΟΘΕΟΝ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularAbbreviatedName">ΤΙΤΟΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularAbbreviatedName">ΦΙΛΗΜΟΝΑ</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularAbbreviatedName">ΕΒΡΑΙΟΥΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularAbbreviatedName">ΙΑΚΩΒΟΥ</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularAbbreviatedName">ΠΕΤΡΟΥ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularAbbreviatedName">ΠΕΤΡΟΥ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularAbbreviatedName">ΙΩΑΝΝΟΥ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularAbbreviatedName">ΙΩΑΝΝΟΥ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularAbbreviatedName">ΙΩΑΝΝΟΥ Γ΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularAbbreviatedName">ΙΟΥΔΑ</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularAbbreviatedName">ΑΠΟΚΑΛΥΨΙΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularBookAbbreviation">ΜΑΤΘΑΙΟΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularBookAbbreviation">ΜΑΡΚΟΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularBookAbbreviation">ΛΟΥΚΑΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularBookAbbreviation">ΙΩΑΝΝΗΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularBookAbbreviation">ΠΡΑΞΕΙΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularBookAbbreviation">ΡΩΜΑΙΟΥΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularBookAbbreviation">ΚΟΡΙΝΘΙΟΥΣ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularBookAbbreviation">ΚΟΡΙΝΘΙΟΥΣ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularBookAbbreviation">ΓΑΛΑΤΑΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularBookAbbreviation">ΕΦΕΣΙΟΥΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularBookAbbreviation">ΦΙΛΙΠΠΗΣΙΟΥΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularBookAbbreviation">ΚΟΛΟΣΣΑΕΙΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularBookAbbreviation">ΘΕΣΣΑΛΟΝΙΚΕΙΣ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularBookAbbreviation">ΘΕΣΣΑΛΟΝΙΚΕΙΣ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularBookAbbreviation">ΤΙΜΟΘΕΟΝ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularBookAbbreviation">ΤΙΜΟΘΕΟΝ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularBookAbbreviation">ΤΙΤΟΝ</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularBookAbbreviation">ΦΙΛΗΜΟΝΑ</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularBookAbbreviation">ΕΒΡΑΙΟΥΣ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularBookAbbreviation">ΙΑΚΩΒΟΥ</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularBookAbbreviation">ΠΕΤΡΟΥ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularBookAbbreviation">ΠΕΤΡΟΥ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularBookAbbreviation">ΙΩΑΝΝΟΥ Α΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularBookAbbreviation">ΙΩΑΝΝΟΥ Β΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularBookAbbreviation">ΙΩΑΝΝΟΥ Γ΄</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularBookAbbreviation">ΙΟΥΔΑ</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularBookAbbreviation">ΑΠΟΚΑΛΥΨΙΣ</scriptureBook>
+  <dcMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:creator>Society of Biblical Literature</dc:creator>
+    <dc:contributor />
+    <dc:title>Η Καινή Διαθήκη</dc:title>
+    <dc:description>Society of Biblical Literature Greek New Testament</dc:description>
+    <dc:date>2014-05-29</dc:date>
+    <dc:format>digital</dc:format>
+    <dc:language>grc</dc:language>
+    <dc:publisher>Digital Bible Society</dc:publisher>
+    <dc:rights>Copyright © 2010 Society of Biblical Literature and Logos Bible Software
+See http://sblgnt.com/license/
+
+See http://sblgnt.com/license/See http://sblgnt.com/license/</dc:rights>
+    <dc:identifier />
+    <dc:type />
+  </dcMeta>
+  <numberSystem>Default</numberSystem>
+  <chapterAndVerseSeparator>:</chapterAndVerseSeparator>
+  <rangeSeparator>-</rangeSeparator>
+  <multiRefSameChapterSeparator>,</multiRefSameChapterSeparator>
+  <multiRefDifferentChapterSeparator>;</multiRefDifferentChapterSeparator>
+  <verseNumberLocation>Begin</verseNumberLocation>
+  <footnoteMarkerStyle>Circulate</footnoteMarkerStyle>
+  <footnoteMarkerResetAt>Book</footnoteMarkerResetAt>
+  <footnoteMarkers>* † ‡ § ** †† ‡‡ §§ *** ††† ‡‡‡ §§§</footnoteMarkers>
+  <BookSourceForMarkerXt>ShortName</BookSourceForMarkerXt>
+  <BookSourceForMarkerR>ShortName</BookSourceForMarkerR>
+  <iso>grc</iso>
+  <isoVariant>Koine</isoVariant>
+  <langName>Ελληνική</langName>
+  <textDir>ltr</textDir>
+  <hasNotes>True</hasNotes>
+  <coverTitle>Η Καινή Διαθήκη</coverTitle>
+</vernacularParms>

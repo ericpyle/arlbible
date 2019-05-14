@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vernacularParms>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularFullName">בְּרֵאשִׁית</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularFullName">שְׁמוֹת</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularFullName">וַיִּקְרָא</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularFullName">בְּמִדְבַּר</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularFullName">דְּבָרִים</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularFullName">יְהוֹשֻׁעַ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularFullName">שׁוֹפְטִים</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularFullName">רוּת</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularFullName">שְׁמוּאֵל א</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularFullName">שְׁמוּאֵל ב</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularFullName">מְלָכִים א</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularFullName">מְלָכִים ב</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularFullName">דִּבְרֵי הַיָּמִים א</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularFullName">דִּבְרֵי הַיָּמִים ב</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularFullName">עֶזְרָא</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularFullName">נְחֶמְיָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularFullName">אֶסְתֵּר</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularFullName">אִיּוֹב</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularFullName">תְּהִלִּים</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularFullName">מִשְׁלֵי</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularFullName">קֹהֶלֶת</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularFullName">שִׁיר הַשִּׁירִים</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularFullName">יְשַׁעְיָהוּ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularFullName">יִרְמְיָהוּ</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularFullName">אֵיכָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularFullName">יְחֶזְקֵאל</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularFullName">דָּנִיֵּאל</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularFullName">הוֹשֵׁעַ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularFullName">יוֹאֵל</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularFullName">עָמוֹס</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularFullName">עֹבַדְיָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularFullName">יוֹנָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularFullName">מִיכָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularFullName">נַחוּם</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularFullName">חֲבַקּוּק</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularFullName">צְפַנְיָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularFullName">חַגַּי</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularFullName">זְכַרְיָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularFullName">מַלְאָכִי</scriptureBook>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularAbbreviatedName">בְּרֵאשִׁית</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularAbbreviatedName">שְׁמוֹת</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularAbbreviatedName">וַיִּקְרָא</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularAbbreviatedName">בְּמִדְבַּר</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularAbbreviatedName">דְּבָרִים</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularAbbreviatedName">יְהוֹשֻׁעַ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularAbbreviatedName">שׁוֹפְטִים</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularAbbreviatedName">רוּת</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularAbbreviatedName">שְׁמוּאֵל א</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularAbbreviatedName">שְׁמוּאֵל ב</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularAbbreviatedName">מְלָכִים א</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularAbbreviatedName">מְלָכִים ב</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularAbbreviatedName">דִּבְרֵי הַיָּמִים א</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularAbbreviatedName">דִּבְרֵי הַיָּמִים ב</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularAbbreviatedName">עֶזְרָא</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularAbbreviatedName">נְחֶמְיָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularAbbreviatedName">אֶסְתֵּר</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularAbbreviatedName">אִיּוֹב</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularAbbreviatedName">תְּהִלִּים</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularAbbreviatedName">מִשְׁלֵי</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularAbbreviatedName">קֹהֶלֶת</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularAbbreviatedName">שִׁיר הַשִּׁירִים</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularAbbreviatedName">יְשַׁעְיָהוּ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularAbbreviatedName">יִרְמְיָהוּ</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularAbbreviatedName">אֵיכָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularAbbreviatedName">יְחֶזְקֵאל</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularAbbreviatedName">דָּנִיֵּאל</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularAbbreviatedName">הוֹשֵׁעַ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularAbbreviatedName">יוֹאֵל</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularAbbreviatedName">עָמוֹס</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularAbbreviatedName">עֹבַדְיָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularAbbreviatedName">יוֹנָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularAbbreviatedName">מִיכָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularAbbreviatedName">נַחוּם</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularAbbreviatedName">חֲבַקּוּק</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularAbbreviatedName">צְפַנְיָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularAbbreviatedName">חַגַּי</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularAbbreviatedName">זְכַרְיָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularAbbreviatedName">מַלְאָכִי</scriptureBook>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularBookAbbreviation">בְּרֵאשִׁית</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularBookAbbreviation">שְׁמוֹת</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularBookAbbreviation">וַיִּקְרָא</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularBookAbbreviation">בְּמִדְבַּר</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularBookAbbreviation">דְּבָרִים</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularBookAbbreviation">יְהוֹשֻׁעַ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularBookAbbreviation">שׁוֹפְטִים</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularBookAbbreviation">רוּת</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularBookAbbreviation">שְׁמוּאֵל א</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularBookAbbreviation">שְׁמוּאֵל ב</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularBookAbbreviation">מְלָכִים א</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularBookAbbreviation">מְלָכִים ב</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularBookAbbreviation">דִּבְרֵי הַיָּמִים א</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularBookAbbreviation">דִּבְרֵי הַיָּמִים ב</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularBookAbbreviation">עֶזְרָא</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularBookAbbreviation">נְחֶמְיָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularBookAbbreviation">אֶסְתֵּר</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularBookAbbreviation">אִיּוֹב</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularBookAbbreviation">תְּהִלִּים</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularBookAbbreviation">מִשְׁלֵי</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularBookAbbreviation">קֹהֶלֶת</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularBookAbbreviation">שִׁיר הַשִּׁירִים</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularBookAbbreviation">יְשַׁעְיָהוּ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularBookAbbreviation">יִרְמְיָהוּ</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularBookAbbreviation">אֵיכָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularBookAbbreviation">יְחֶזְקֵאל</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularBookAbbreviation">דָּנִיֵּאל</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularBookAbbreviation">הוֹשֵׁעַ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularBookAbbreviation">יוֹאֵל</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularBookAbbreviation">עָמוֹס</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularBookAbbreviation">עֹבַדְיָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularBookAbbreviation">יוֹנָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularBookAbbreviation">מִיכָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularBookAbbreviation">נַחוּם</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularBookAbbreviation">חֲבַקּוּק</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularBookAbbreviation">צְפַנְיָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularBookAbbreviation">חַגַּי</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularBookAbbreviation">זְכַרְיָה</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularBookAbbreviation">מַלְאָכִי</scriptureBook>
+  <dcMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:creator />
+    <dc:contributor />
+    <dc:title>כתבי הקודש</dc:title>
+    <dc:description>The Old Testament in ancient Hebrew, following the Masoretic Text</dc:description>
+    <dc:date>2013-12-11</dc:date>
+    <dc:format>digital</dc:format>
+    <dc:language>hbo</dc:language>
+    <dc:publisher>Digital Bible Society</dc:publisher>
+    <dc:rights>Public Domain</dc:rights>
+    <dc:identifier />
+    <dc:type />
+  </dcMeta>
+  <numberSystem>Default</numberSystem>
+  <chapterAndVerseSeparator>.</chapterAndVerseSeparator>
+  <rangeSeparator>-</rangeSeparator>
+  <multiRefSameChapterSeparator>,</multiRefSameChapterSeparator>
+  <multiRefDifferentChapterSeparator>—</multiRefDifferentChapterSeparator>
+  <verseNumberLocation>Begin</verseNumberLocation>
+  <footnoteMarkerStyle>Circulate</footnoteMarkerStyle>
+  <footnoteMarkerResetAt>Book</footnoteMarkerResetAt>
+  <footnoteMarkers>* † ‡ § ** †† ‡‡ §§ *** ††† ‡‡‡ §§§</footnoteMarkers>
+  <BookSourceForMarkerXt>Abbreviation</BookSourceForMarkerXt>
+  <BookSourceForMarkerR>ShortName</BookSourceForMarkerR>
+  <iso>hbo</iso>
+  <isoVariant>Biblical/Ancient</isoVariant>
+  <langName>עברית</langName>
+  <textDir>rtl</textDir>
+  <hasNotes>True</hasNotes>
+  <coverTitle>כתבי הקודש</coverTitle>
+</vernacularParms>
