@@ -54,6 +54,7 @@ $(document).ready(function () {
         "deu": [{ path: 'bibles/deu/deu1912', displayName: 'Luther Bibel 1912 (German Luther Bible 1912)' }],
         "fra": [{ path: 'bibles/fra/fra_fob', displayName: 'FOB - La Sainte Bible (Ostervald)' },
                 { path: 'bibles/fra/fraLSG', displayName: 'LSG - Louis Segond 1910 (Louis Segond version of 1910)' }],
+        "hbo-grc": [{ path: 'bibles/hbo-grc/hbo_grc_sblgnt', displayName: 'כתבי הקודש / Η Καινή Διαθήκη (Hebrew Masoretic OT / SBL Greek NT)' }],
         "hin": [{ path: 'bibles/hin/hin2017', displayName: 'पवित्र बाइबिल (Hindi Bible - © 2017, 2018 Bridge Connectivity Solutions - CC BY-SA 4.0)' }],
         "kor": [{ path: 'bibles/kor/kor', displayName: 'Korean Bible', bcPageMethod: htmlBibleBcPageMethod }],
         "rus": [{ path: 'bibles/rus/russyn', displayName: 'Синодальный перевод (Russian Synodal Translation)' }],
