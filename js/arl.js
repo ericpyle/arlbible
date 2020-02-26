@@ -47,7 +47,7 @@ $(document).ready(function () {
     languageToVersion =
     {
         "arb": [{ path: 'bibles/arb/avd', displayName: 'الكتاب المقدس باللغة العربية، فان دايك (Arabic Van Dyck Bible)' }],
-        "ben": [{ path: 'bibles/ben/ben2017', displayName: 'ইন্ডিয়ান রিভাইজড ভার্সন (IRV) - বেঙ্গলী - (Bengali Indian Revised Version Bible - © 2017 Bridge Connectivity Solutions - CC BY-SA 4.0' }],
+        "ben": [{ path: 'bibles/ben/ben2017', displayName: 'ইন্ডিয়ান রিভাইজড ভার্সন (IRV) - বেঙ্গলী - (Bengali Indian Revised Version Bible)' }],
         "cmn": [{ path: 'bibles/cmn/cmnCUVs', displayName: '中国协和简体 (Chinese Union Version - simplified)' },
                 { path: 'bibles/cmn/cmnCUt', displayName: '中国传统联盟 (Chinese Union Version - traditional)' }],
         "eng": [{ path: 'bibles/eng/kjv', displayName: 'KJV - King James Version' },
@@ -56,11 +56,11 @@ $(document).ready(function () {
         "fra": [{ path: 'bibles/fra/fra_fob', displayName: 'FOB - La Sainte Bible (Ostervald)' },
                 { path: 'bibles/fra/fraLSG', displayName: 'LSG - Louis Segond 1910 (Louis Segond version of 1910)' }],
         "hbo-grc": [{ path: 'bibles/hbo-grc/hbo_grc_sblgnt', displayName: 'כתבי הקודש / Η Καινή Διαθήκη (Hebrew Masoretic OT / SBL Greek NT)' }],
-        "hin": [{ path: 'bibles/hin/hin2017', displayName: 'पवित्र बाइबिल (Hindi Bible - © 2017, 2018 Bridge Connectivity Solutions - CC BY-SA 4.0)' }],
+        "hin": [{ path: 'bibles/hin/hin2017', displayName: 'पवित्र बाइबिल (Hindi Bible)' }],
         "kor": [{ path: 'bibles/kor/kor', displayName: 'Korean Bible', bcPageMethod: htmlBibleBcPageMethod }],
         "rus": [{ path: 'bibles/rus/russyn', displayName: 'Синодальный перевод (Russian Synodal Translation)' }],
         "spa": [{ path: 'bibles/spa/spa1909', displayName: 'Reina Valera (1909)' }],
-        "tel": [{ path: 'bibles/tel/tel2017', displayName: 'ఇండియన్ రివైజ్డ్ వెర్షన్ (IRV) - తెలుగు -2017 - (Telugu Indian Revised Version Bible - © 2017 Bridge Connectivity Solutions - CC BY-SA 4.0' }],
+        "tel": [{ path: 'bibles/tel/tel2017', displayName: 'ఇండియన్ రివైజ్డ్ వెర్షన్ (IRV) - తెలుగు -2017 - (Telugu Indian Revised Version Bible)' }],
         "vie": [{ path: 'bibles/vie/vietnamesevni', displayName: 'Vietnamese Bible', bcPageMethod: htmlBibleBcPageMethod }],
     };
 
