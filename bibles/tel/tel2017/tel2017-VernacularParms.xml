@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vernacularParms>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularFullName">ఆదికాండం</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularFullName">నిర్గమకాండం</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularFullName">లేవీకాండం</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularFullName">సంఖ్యాకాండం</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularFullName">ద్వితీయోపదేశ కాండము</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularFullName">యెహోషువ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularFullName">న్యాయాధిపతులు</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularFullName">రూతు</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularFullName">1 సమూయేలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularFullName">2 సమూయేలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularFullName">1 రాజులు</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularFullName">2 రాజులు</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularFullName">1 దినవృత్తాంతాలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularFullName">2 దినవృత్తాంతాలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularFullName">ఎజ్రా</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularFullName">నెహెమ్యా</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularFullName">ఎస్తేరు</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularFullName">యోబు</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularFullName">కీర్తనలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularFullName">సామెతలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularFullName">ప్రసంగి</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularFullName">పరమగీతం</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularFullName">యెషయా</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularFullName">యిర్మీయా</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularFullName">విలాపవాక్యాలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularFullName">యెహెజ్కేలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularFullName">దానియేలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularFullName">హోషేయ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularFullName">యోవేలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularFullName">ఆమోసు</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularFullName">ఓబద్యా</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularFullName">యోనా</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularFullName">మీకా</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularFullName">నహూము</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularFullName">హబక్కూకు</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularFullName">జెఫన్యా</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularFullName">హగ్గయి</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularFullName">జెకర్యా</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularFullName">మలాకీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularFullName">మత్తయి రాసిన సువార్త</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularFullName">మార్కు రాసిన సువార్త</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularFullName">లూకా రాసిన సువార్త</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularFullName">యోహాను రాసిన సువార్త</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularFullName">అపొస్తలుల కార్యములు</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularFullName">రోమీయులకు రాసిన పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularFullName">కొరింతీయులకు రాసిన మొదటి పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularFullName">కొరింతీయులకు రాసిన రెండవ పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularFullName">గలతీయులకు రాసిన పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularFullName">ఎఫెసీయులకు రాసిన పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularFullName">ఫిలిప్పీయులకు రాసిన పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularFullName">కొలస్సయులకు రాసిన పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularFullName">తెస్సలోనికయులకు రాసిన మొదటి పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularFullName">తెస్సలోనికయులకు రాసిన రెండవ పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularFullName">తిమోతికి రాసిన మొదటి పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularFullName">తిమోతికి రాసిన రెండవ పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularFullName">తీతుకు రాసిన పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularFullName">ఫిలేమోనుకు రాసిన పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularFullName">హెబ్రీయులకు రాసిన పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularFullName">యాకోబు రాసిన పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularFullName">పేతురు రాసిన మొదటి పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularFullName">పేతురు రాసిన రెండవ పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularFullName">యోహాను రాసిన మొదటి పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularFullName">యోహాను రాసిన రెండవ పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularFullName">యోహాను రాసిన మూడవ పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularFullName">యూదా రాసిన పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularFullName">యోహాను రాసిన ప్రకటన గ్రంథం</scriptureBook>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularAbbreviatedName">ఆది</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularAbbreviatedName">నిర్గమ</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularAbbreviatedName">లేవీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularAbbreviatedName">సంఖ్యా</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularAbbreviatedName">ద్వితీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularAbbreviatedName">యెహో</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularAbbreviatedName">న్యాయా</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularAbbreviatedName">రూతు</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularAbbreviatedName">1 సమూ</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularAbbreviatedName">2 సమూ</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularAbbreviatedName">1 రాజులు</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularAbbreviatedName">2 రాజులు</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularAbbreviatedName">1 దిన</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularAbbreviatedName">2 దిన</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularAbbreviatedName">ఎజ్రా</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularAbbreviatedName">నెహెమ్యా</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularAbbreviatedName">ఎస్తేరు</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularAbbreviatedName">యోబు</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularAbbreviatedName">కీర్తన</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularAbbreviatedName">సామెత</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularAbbreviatedName">ప్రసంగి</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularAbbreviatedName">పరమ</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularAbbreviatedName">యెషయా</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularAbbreviatedName">యిర్మీయా</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularAbbreviatedName">విలాప వాక్యములు</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularAbbreviatedName">యెహెజ్కేలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularAbbreviatedName">దానియేలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularAbbreviatedName">హోషేయ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularAbbreviatedName">యోవేలు</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularAbbreviatedName">ఆమోసు</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularAbbreviatedName">ఓబద్యా</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularAbbreviatedName">యోనా</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularAbbreviatedName">మీకా</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularAbbreviatedName">నహూము</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularAbbreviatedName">హబక్కూకు</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularAbbreviatedName">జెఫన్యా</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularAbbreviatedName">హగ్గయి</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularAbbreviatedName">జెకర్యా</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularAbbreviatedName">మలాకీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularAbbreviatedName">మత్తయి</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularAbbreviatedName">మార్కు</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularAbbreviatedName">లూకా</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularAbbreviatedName">యోహాను</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularAbbreviatedName">అపొస్తలుల కార్యములు</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularAbbreviatedName">రోమీయులకు రాసిన పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularAbbreviatedName">1 కొరింతీ పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularAbbreviatedName">2 కొరింతీ పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularAbbreviatedName">గలతీ పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularAbbreviatedName">ఎఫెసీ పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularAbbreviatedName">ఫిలిప్పీ పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularAbbreviatedName">కొలస్స పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularAbbreviatedName">1 తెస్సలోనిక పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularAbbreviatedName">2 తెస్సలోనిక పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularAbbreviatedName">1 తిమోతి పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularAbbreviatedName">2 తిమోతి పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularAbbreviatedName">తీతు పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularAbbreviatedName">ఫిలేమోను పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularAbbreviatedName">హెబ్రీ పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularAbbreviatedName">యాకోబు పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularAbbreviatedName">1 పేతురు పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularAbbreviatedName">2 పేతురు పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularAbbreviatedName">1 యోహాను పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularAbbreviatedName">2 యోహాను పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularAbbreviatedName">3 యోహాను పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularAbbreviatedName">యూదా పత్రిక</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularAbbreviatedName">ప్రకటన గ్రంథము</scriptureBook>
+  <scriptureBook ubsAbbreviation="GEN" parm="vernacularBookAbbreviation">ఆది</scriptureBook>
+  <scriptureBook ubsAbbreviation="EXO" parm="vernacularBookAbbreviation">నిర్గ</scriptureBook>
+  <scriptureBook ubsAbbreviation="LEV" parm="vernacularBookAbbreviation">లేవీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="NUM" parm="vernacularBookAbbreviation">సంఖ్యా</scriptureBook>
+  <scriptureBook ubsAbbreviation="DEU" parm="vernacularBookAbbreviation">ద్వితీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOS" parm="vernacularBookAbbreviation">యెహో</scriptureBook>
+  <scriptureBook ubsAbbreviation="JDG" parm="vernacularBookAbbreviation">న్యాయా</scriptureBook>
+  <scriptureBook ubsAbbreviation="RUT" parm="vernacularBookAbbreviation">రూతు</scriptureBook>
+  <scriptureBook ubsAbbreviation="1SA" parm="vernacularBookAbbreviation">1సమూ</scriptureBook>
+  <scriptureBook ubsAbbreviation="2SA" parm="vernacularBookAbbreviation">2సమూ</scriptureBook>
+  <scriptureBook ubsAbbreviation="1KI" parm="vernacularBookAbbreviation">1రాజులు</scriptureBook>
+  <scriptureBook ubsAbbreviation="2KI" parm="vernacularBookAbbreviation">2రాజులు</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CH" parm="vernacularBookAbbreviation">1దిన</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CH" parm="vernacularBookAbbreviation">2దిన</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZR" parm="vernacularBookAbbreviation">ఎజ్రా</scriptureBook>
+  <scriptureBook ubsAbbreviation="NEH" parm="vernacularBookAbbreviation">నెహె</scriptureBook>
+  <scriptureBook ubsAbbreviation="EST" parm="vernacularBookAbbreviation">ఎస్తే</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOB" parm="vernacularBookAbbreviation">యోబు</scriptureBook>
+  <scriptureBook ubsAbbreviation="PSA" parm="vernacularBookAbbreviation">కీర్త</scriptureBook>
+  <scriptureBook ubsAbbreviation="PRO" parm="vernacularBookAbbreviation">సామె</scriptureBook>
+  <scriptureBook ubsAbbreviation="ECC" parm="vernacularBookAbbreviation">ప్రస</scriptureBook>
+  <scriptureBook ubsAbbreviation="SNG" parm="vernacularBookAbbreviation">పరమ</scriptureBook>
+  <scriptureBook ubsAbbreviation="ISA" parm="vernacularBookAbbreviation">యెష</scriptureBook>
+  <scriptureBook ubsAbbreviation="JER" parm="vernacularBookAbbreviation">యిర్మీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="LAM" parm="vernacularBookAbbreviation">విలాప</scriptureBook>
+  <scriptureBook ubsAbbreviation="EZK" parm="vernacularBookAbbreviation">యెహె</scriptureBook>
+  <scriptureBook ubsAbbreviation="DAN" parm="vernacularBookAbbreviation">దాని</scriptureBook>
+  <scriptureBook ubsAbbreviation="HOS" parm="vernacularBookAbbreviation">హోషే</scriptureBook>
+  <scriptureBook ubsAbbreviation="JOL" parm="vernacularBookAbbreviation">యోవే</scriptureBook>
+  <scriptureBook ubsAbbreviation="AMO" parm="vernacularBookAbbreviation">ఆమో</scriptureBook>
+  <scriptureBook ubsAbbreviation="OBA" parm="vernacularBookAbbreviation">ఓబద్యా</scriptureBook>
+  <scriptureBook ubsAbbreviation="JON" parm="vernacularBookAbbreviation">యోనా</scriptureBook>
+  <scriptureBook ubsAbbreviation="MIC" parm="vernacularBookAbbreviation">మీకా</scriptureBook>
+  <scriptureBook ubsAbbreviation="NAM" parm="vernacularBookAbbreviation">నహూ</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAB" parm="vernacularBookAbbreviation">హబ</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEP" parm="vernacularBookAbbreviation">జెఫ</scriptureBook>
+  <scriptureBook ubsAbbreviation="HAG" parm="vernacularBookAbbreviation">హగ్గ</scriptureBook>
+  <scriptureBook ubsAbbreviation="ZEC" parm="vernacularBookAbbreviation">జెక</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAL" parm="vernacularBookAbbreviation">మలా</scriptureBook>
+  <scriptureBook ubsAbbreviation="MAT" parm="vernacularBookAbbreviation">మత్తయి</scriptureBook>
+  <scriptureBook ubsAbbreviation="MRK" parm="vernacularBookAbbreviation">మార్కు</scriptureBook>
+  <scriptureBook ubsAbbreviation="LUK" parm="vernacularBookAbbreviation">లూకా</scriptureBook>
+  <scriptureBook ubsAbbreviation="JHN" parm="vernacularBookAbbreviation">యోహా</scriptureBook>
+  <scriptureBook ubsAbbreviation="ACT" parm="vernacularBookAbbreviation">అపొ.కా.</scriptureBook>
+  <scriptureBook ubsAbbreviation="ROM" parm="vernacularBookAbbreviation">రోమా</scriptureBook>
+  <scriptureBook ubsAbbreviation="1CO" parm="vernacularBookAbbreviation">1కొరింతీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="2CO" parm="vernacularBookAbbreviation">2కొరింతీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="GAL" parm="vernacularBookAbbreviation">గలతీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="EPH" parm="vernacularBookAbbreviation">ఎఫెసీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHP" parm="vernacularBookAbbreviation">ఫిలిప్పీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="COL" parm="vernacularBookAbbreviation">కొలస్స</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TH" parm="vernacularBookAbbreviation">1తెస్స</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TH" parm="vernacularBookAbbreviation">2తెస్స</scriptureBook>
+  <scriptureBook ubsAbbreviation="1TI" parm="vernacularBookAbbreviation">1తిమో</scriptureBook>
+  <scriptureBook ubsAbbreviation="2TI" parm="vernacularBookAbbreviation">2తిమో</scriptureBook>
+  <scriptureBook ubsAbbreviation="TIT" parm="vernacularBookAbbreviation">తీతు</scriptureBook>
+  <scriptureBook ubsAbbreviation="PHM" parm="vernacularBookAbbreviation">ఫిలే</scriptureBook>
+  <scriptureBook ubsAbbreviation="HEB" parm="vernacularBookAbbreviation">హెబ్రీ</scriptureBook>
+  <scriptureBook ubsAbbreviation="JAS" parm="vernacularBookAbbreviation">యాకో</scriptureBook>
+  <scriptureBook ubsAbbreviation="1PE" parm="vernacularBookAbbreviation">1పేతు</scriptureBook>
+  <scriptureBook ubsAbbreviation="2PE" parm="vernacularBookAbbreviation">2పేతు</scriptureBook>
+  <scriptureBook ubsAbbreviation="1JN" parm="vernacularBookAbbreviation">1యోహా</scriptureBook>
+  <scriptureBook ubsAbbreviation="2JN" parm="vernacularBookAbbreviation">2యోహా</scriptureBook>
+  <scriptureBook ubsAbbreviation="3JN" parm="vernacularBookAbbreviation">3యోహా</scriptureBook>
+  <scriptureBook ubsAbbreviation="JUD" parm="vernacularBookAbbreviation">యూదా</scriptureBook>
+  <scriptureBook ubsAbbreviation="REV" parm="vernacularBookAbbreviation">ప్రక</scriptureBook>
+  <dcMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:creator>Bridge Connectivity Solutions</dc:creator>
+    <dc:contributor>Bridge Connectivity Solutions Pvt. Ltd.</dc:contributor>
+    <dc:title>ఇండియన్ రివైజ్డ్ వెర్షన్ (IRV) - తెలుగు -2019</dc:title>
+    <dc:description>The Indian Revised Version Holy Bible in the Telugu language of India</dc:description>
+    <dc:date>2020-02-11</dc:date>
+    <dc:format>digital</dc:format>
+    <dc:language>tel</dc:language>
+    <dc:publisher>http://www.freebiblesindia.in/</dc:publisher>
+    <dc:rights>Copyright © 2017 Bridge Connectivity Solutions
+&lt;p&gt;Status of the project:&lt;/p&gt; 
+&lt;ul&gt;
+&lt;li&gt;Stage 1 - Initial Drafting by Mother Tongue Translators -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 2 - Community Checking by Church -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 3 - Local Consultant (Theologian/Linguist) Checking -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 4 - Church Network Leaders Checking -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 5 - Further Quality Checking -- In Progress&lt;/li&gt;
+&lt;/ul&gt;
+
+This work is made available to you under the terms of the Creative Commons Attribution-Share-Alike license at http://creativecommons.org/licenses/by-sa/4.0/.
+&lt;p&gt;Status of the project:&lt;/p&gt; 
+&lt;ul&gt;
+&lt;li&gt;Stage 1 - Initial Drafting by Mother Tongue Translators -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 2 - Community Checking by Church -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 3 - Local Consultant (Theologian/Linguist) Checking -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 4 - Church Network Leaders Checking -- Completed&lt;/li&gt;
+&lt;li&gt;Stage 5 - Further Quality Checking -- In Progress&lt;/li&gt;
+&lt;/ul&gt;</dc:rights>
+    <dc:identifier />
+    <dc:type />
+  </dcMeta>
+  <numberSystem>Default</numberSystem>
+  <chapterAndVerseSeparator>:</chapterAndVerseSeparator>
+  <rangeSeparator>-</rangeSeparator>
+  <multiRefSameChapterSeparator>,</multiRefSameChapterSeparator>
+  <multiRefDifferentChapterSeparator>;</multiRefDifferentChapterSeparator>
+  <verseNumberLocation>Begin</verseNumberLocation>
+  <footnoteMarkerStyle>Circulate</footnoteMarkerStyle>
+  <footnoteMarkerResetAt>Book</footnoteMarkerResetAt>
+  <footnoteMarkers>* † ‡ §</footnoteMarkers>
+  <BookSourceForMarkerXt>ShortName</BookSourceForMarkerXt>
+  <BookSourceForMarkerR>ShortName</BookSourceForMarkerR>
+  <iso>tel</iso>
+  <isoVariant />
+  <langName>తెలుగు</langName>
+  <textDir>ltr</textDir>
+  <hasNotes>True</hasNotes>
+  <coverTitle>ఇండియన్ రివైజ్డ్ వెర్షన్ (IRV) - తెలుగు -2019</coverTitle>
+</vernacularParms>

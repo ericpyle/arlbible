@@ -47,6 +47,7 @@ $(document).ready(function () {
     languageToVersion =
     {
         "arb": [{ path: 'bibles/arb/avd', displayName: 'الكتاب المقدس باللغة العربية، فان دايك (Arabic Van Dyck Bible)' }],
+        "ben": [{ path: 'bibles/ben/ben2017', displayName: 'ইন্ডিয়ান রিভাইজড ভার্সন (IRV) - বেঙ্গলী - (Bengali Indian Revised Version Bible - © 2017 Bridge Connectivity Solutions - CC BY-SA 4.0' }],
         "cmn": [{ path: 'bibles/cmn/cmnCUVs', displayName: '中国协和简体 (Chinese Union Version - simplified)' },
                 { path: 'bibles/cmn/cmnCUt', displayName: '中国传统联盟 (Chinese Union Version - traditional)' }],
         "eng": [{ path: 'bibles/eng/kjv', displayName: 'KJV - King James Version' },
@@ -59,6 +60,7 @@ $(document).ready(function () {
         "kor": [{ path: 'bibles/kor/kor', displayName: 'Korean Bible', bcPageMethod: htmlBibleBcPageMethod }],
         "rus": [{ path: 'bibles/rus/russyn', displayName: 'Синодальный перевод (Russian Synodal Translation)' }],
         "spa": [{ path: 'bibles/spa/spa1909', displayName: 'Reina Valera (1909)' }],
+        "tel": [{ path: 'bibles/tel/tel2017', displayName: 'ఇండియన్ రివైజ్డ్ వెర్షన్ (IRV) - తెలుగు -2017 - (Telugu Indian Revised Version Bible - © 2017 Bridge Connectivity Solutions - CC BY-SA 4.0' }],
         "vie": [{ path: 'bibles/vie/vietnamesevni', displayName: 'Vietnamese Bible', bcPageMethod: htmlBibleBcPageMethod }],
     };
 
