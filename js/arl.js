@@ -281,6 +281,16 @@ var ARL = (function (jQuery, BookStats, SILTitleAbbrToHeader_eng) {
     }
 
     function loadGenrePage(idGenreDiv, bcPage, fLoadOnly) {
+        switch(bcPage) {
+            case "TOB01.htm": {
+                bcPage = "MAT01.htm";
+                break;
+            }
+            case "2ES16.htm": {
+                bcPage = "MAL04.htm";
+                break;
+            }
+        }
         var bookCode = bcPage.substring(0, 3);
         var verses = BookStats[bookCode].verses;
         var words = BookStats[bookCode].words;
